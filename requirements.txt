@@ -1,0 +1,7 @@
+paho
+requests
+numpy
+dotenv
+forecast_solar
+psycopg2
+
