@@ -49,11 +49,7 @@ class Forecast:
     
 
 def main():
-    print('this is forecast-solar!')
-    inst = Forecast()   
-    SManager = lib.manager.Manager()
-    tomorrow = (datetime.now() + timedelta(1)).strftime('%Y-%m-%d')
-    SManager.write_pv_forecast(tomorrow, inst.forecast_tomorrow())
+   pass
 
 
 if __name__ == "__main__":
