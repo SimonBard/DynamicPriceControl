@@ -5,48 +5,28 @@ import lib.heatpump
 from datetime import datetime, timedelta
 import lib.battery
 from requests import get
-import json
 import lib.ha_connection
 import lib.telegram
 
 
 def main():
+
+    stats()
+    battery_charge_switch()
+    wp()
+
+
+def battery():
     myha_link = lib.ha_connection.ha_link()
     mybattery = lib.battery.kostal_modbusquery()
     mybattery.run()
 
-    status_charge_switch = myha_link.charge_switch()
-    minsoc = myha_link.minsoc_attempt()
-    current_soc = mybattery.get_currentsoc()
     timestamp = f'{datetime.now():%Y-%m-%d %H:%M:%S%z}'
 
     # Write yield and consumption values to database
     today = datetime.now().strftime('%Y-%m-%d')
     SManager = lib.manager.Manager()
-    SManager.write_totalyield(today, mybattery.getTotalYield())
-    SManager.write_total_home_consumption(today, mybattery.getTotalHomeConsumption())
-    SManager.write_demand(today, 'totalac2grid', mybattery.getTotalAC2Grid())
-    print('TotalAC2Grid is: ', mybattery.getTotalAC2Grid())
 
-    mytelegram = lib.telegram.Telegram()
-
-
-    if status_charge_switch == "on":
-        if  float(minsoc) > float(current_soc):        
-            print(timestamp, " status ist: ", status_charge_switch, "|| minsoc soll: ", minsoc, " soc ist: ", current_soc, "=> also lade")
-            mytelegram.message_all(timestamp + " status ist: "+ str(status_charge_switch) +  "|| minsoc soll: "+ str(minsoc) + " soc ist: "+ str(current_soc) + "=> also lade")
-            mybattery.load_battery_1min(-5000)
-        else:
-            print(timestamp, " status is: ", status_charge_switch, "|| minsoc soll: ", minsoc, " soc ist: ", current_soc)
-            if mybattery.getGridPower() > 0:
-                print(timestamp, "Netzbezug, deshalb nicht entladen oder laden")
-                mybattery.load_battery_1min(0)
-            else: 
-                print(timestamp, "Netzeinspeisung, deshalb Steurung aufgeben, damit Akku von PV laden kann")
-    else:
-        print(timestamp, "status is off, tue nichts")
-
-    
     simon_battery_control = myha_link.simon_battery_control()
     print("simon_battery_control: ", simon_battery_control)
     if simon_battery_control ==  "on":
@@ -72,12 +52,26 @@ def main():
     else: 
         print("status_charge_switch is off, do nothing")
 
+
+def wp():
+    myha_link = lib.ha_connection.ha_link()
+    mybattery = lib.battery.kostal_modbusquery()
+    mybattery.run()
+
+    timestamp = f'{datetime.now():%Y-%m-%d %H:%M:%S%z}'
+
+    # Write yield and consumption values to database
+    today = datetime.now().strftime('%Y-%m-%d')
+    SManager = lib.manager.Manager()
+    SManager.write_totalyield(today, mybattery.getTotalYield())
+    SManager.write_total_home_consumption(today, mybattery.getTotalHomeConsumption())
+    SManager.write_demand(today, 'totalac2grid', mybattery.getTotalAC2Grid())
+    print('TotalAC2Grid is: ', mybattery.getTotalAC2Grid())
+
+    mytelegram = lib.telegram.Telegram()
     simon_wp_control = myha_link.simon_wp_control()
-    print("simon_wp_control: ", simon_wp_control)
-    print('SManager.getcounter() ', type(SManager.getcounter()[0][0]))
-    print('mybattery.get_currentsoc', mybattery.get_currentsoc())
-    SManager.write_counter(SManager.getcounter()[0][0] - 1)
-    #Counter is used to that Heatpump runs for at least 30 min
+
+
     if simon_wp_control ==  "on":
         hourly_values = SManager.retrieve_dict(today)
         current_hour = int(datetime.now().strftime("%H"))
@@ -115,6 +109,52 @@ def main():
         print("simon_wp_control is off, do nothing")
         mytelegram.message_all("simon_wp_control in homeassistant ist ausgeschaltet, WP macht was ihr zuletzt gesagt wurde oder manuell eingestellt wurde")
 
+
+def battery_charge_switch():
+    myha_link = lib.ha_connection.ha_link()
+    mybattery = lib.battery.kostal_modbusquery()
+    mybattery.run()
+
+    status_charge_switch = myha_link.charge_switch()
+    minsoc = myha_link.minsoc_attempt()
+    current_soc = mybattery.get_currentsoc()
+    timestamp = f'{datetime.now():%Y-%m-%d %H:%M:%S%z}'
+
+    # Write yield and consumption values to database
+    today = datetime.now().strftime('%Y-%m-%d')
+    SManager = lib.manager.Manager()
+    SManager.write_totalyield(today, mybattery.getTotalYield())
+    SManager.write_total_home_consumption(today, mybattery.getTotalHomeConsumption())
+    SManager.write_demand(today, 'totalac2grid', mybattery.getTotalAC2Grid())
+    print('TotalAC2Grid is: ', mybattery.getTotalAC2Grid())
+
+    mytelegram = lib.telegram.Telegram()
+
+    if status_charge_switch == "on":
+        if  float(minsoc) > float(current_soc):        
+            print(timestamp, " status ist: ", status_charge_switch, "|| minsoc soll: ", minsoc, " soc ist: ", current_soc, "=> also lade")
+            mytelegram.message_all(timestamp + " status ist: "+ str(status_charge_switch) +  "|| minsoc soll: "+ str(minsoc) + " soc ist: "+ str(current_soc) + "=> also lade")
+            mybattery.load_battery_1min(-5000)
+        else:
+            print(timestamp, " status is: ", status_charge_switch, "|| minsoc soll: ", minsoc, " soc ist: ", current_soc)
+            if mybattery.getGridPower() > 0:
+                print(timestamp, "Netzbezug, deshalb nicht entladen oder laden")
+                mybattery.load_battery_1min(0)
+            else: 
+                print(timestamp, "Netzeinspeisung, deshalb Steurung aufgeben, damit Akku von PV laden kann")
+    else:
+        print(timestamp, "status is off, tue nichts")
+
+def stats():
+    mybattery = lib.battery.kostal_modbusquery()
+    mybattery.run()
+
+    # Write yield and consumption values to database
+    today = datetime.now().strftime('%Y-%m-%d')
+    SManager = lib.manager.Manager()
+    SManager.write_totalyield(today, mybattery.getTotalYield())
+    SManager.write_total_home_consumption(today, mybattery.getTotalHomeConsumption())
+    SManager.write_demand(today, 'totalac2grid', mybattery.getTotalAC2Grid())
 
 if __name__ == "__main__":
     main()

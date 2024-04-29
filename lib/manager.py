@@ -72,7 +72,7 @@ class Manager:
                 date DATE,
                 PRIMARY KEY (date),
                 demand_forecast REAL,
-                pv_forecast REAL,
+                forecast_solar REAL,
                 total_home_consumption REAL,
                 home_consumption REAL,
                 forecast_solar REAL,
@@ -101,7 +101,7 @@ class Manager:
                     PRIMARY KEY (date, hour),
                     t_forecast REAL,
                     cop_specific REAL,
-                    pv_forecast REAL,
+                    forecast_solar REAL,
                     tibber_netto REAL,
                     tibber_brutto REAL,
                     mixedprice REAL,
@@ -388,9 +388,7 @@ class Manager:
 
     def write_statehp_recommendation(self, date, hour, statehp_recommendation):
         
-            sql = """INSERT INTO hourly_data(date, hour,  
-                        statehp_recommendation
-                        )
+            sql = """INSERT INTO hourly_data(date, hour,statehp_recommendation)
                         VALUES(%s,%s,%s) 
 
                     ON CONFLICT (date, hour)
@@ -427,14 +425,14 @@ class Manager:
 
     def write_pv_forecast(self, date, pv_forecast):
     
-        sql = """INSERT INTO demand(date, pv_forecast
+        sql = """INSERT INTO demand(date, forecast_solar
                     )
                     VALUES(%s,%s) 
 
                 ON CONFLICT (date)
                 DO 
                 UPDATE SET 
-                    pv_forecast = EXCLUDED.pv_forecast
+                    forecast_solar = EXCLUDED.forecast_solar
                     
                 ;"""
         conn = None
@@ -585,7 +583,7 @@ class Manager:
             cur.execute(sql, (date,  
                 value
                 ))
-            #print('values written to db')
+            print('write to table demand in column',column, 'value: ', value, ' for date: ' , date)
             # commit the changes to the database
             conn.commit()
             # close communication with the database
@@ -626,52 +624,17 @@ class Manager:
                 conn.close()
 
 
-    def retrieve_hourly_value(self, date, hour):
-    
-        postgreSQL_select_Query = """SELECT * FROM hourly_data WHERE date='""" + date + """' AND hour = '""" + hour +   """';"""
-        print(postgreSQL_select_Query)
-        try:
-                        # read database configuration
-            params = config()
-            # connect to the PostgreSQL database
-            connection = psycopg2.connect(**params)
-            # create a new cursor
-            print('connected to db')
-            cursor = connection.cursor()
-
-            cursor.execute(postgreSQL_select_Query)
-            print("Selecting rows from mobile table using cursor.fetchall")
-            mobile_records = cursor.fetchall()
-
-            # print("Print each row and it's columns values")
-            # for row in mobile_records:
-            #     print("Id = ", row[0], )
-            #     print("Model = ", row[1])
-            #     print("Price  = ", row[2], "\n")
-            
-
-        except (Exception, psycopg2.Error) as error:
-            print("Error while fetching data from PostgreSQL", error)
-
-        finally:
-            # closing database connection.
-            if connection:
-                cursor.close()
-                connection.close()
-                return mobile_records
-                #print("PostgreSQL connection is closed")
             
     def getcounter(self):
     
         postgreSQL_select_Query = """SELECT pv_overshoot_duration FROM counter ;"""
-        print(postgreSQL_select_Query)
+        #print(postgreSQL_select_Query)
         try:
                         # read database configuration
             params = config()
             # connect to the PostgreSQL database
             connection = psycopg2.connect(**params)
             # create a new cursor
-            print('connected to db')
             cursor = connection.cursor()
             cursor.execute(postgreSQL_select_Query)
             mobile_records = cursor.fetchall()
@@ -686,6 +649,8 @@ class Manager:
                 return mobile_records
                 #print("PostgreSQL connection is closed")
 
+    
+    
     def retrieve_dict(self, date):
         """
         Run generic select query on db, returns a list of dictionaries
