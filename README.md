@@ -46,6 +46,7 @@ docker run -d --name postgres-heatpump -e POSTGRES_PASSWORD=secret123$% -e PGDAT
 Also adapt the database.ini file with that password.
 
 2.  Install requirements
+Its recommended to use a virtual environment, but I want to make it as easy as possible here. 
 ```
 python3 -m pip install -r requirements.txt
 ```

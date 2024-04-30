@@ -6,4 +6,7 @@ forecast_solar
 psycopg2-binary
 pymodbus
 tibber
+solcast
+pandas
+typing_extensions
 

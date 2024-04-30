@@ -7644,3 +7644,59 @@ TotalAC2Grid is:  17798.556
 2024-04-30 12:59:14 status is off, tue nichts
 TotalAC2Grid is:  17798.556
 filename:  /intenso/docker/volumes/postgre/python/database.ini
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column pv_totalyield value:  29009.038  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column total_home_consumption value:  15687.306  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17798.556
+2024-04-30 13:00:15 status is off, tue nichts
+TotalAC2Grid is:  17798.556
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column pv_totalyield value:  29009.4  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column total_home_consumption value:  15687.433  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17798.79
+2024-04-30 13:01:15 status is off, tue nichts
+TotalAC2Grid is:  17798.79
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column pv_totalyield value:  29009.4  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column total_home_consumption value:  15687.433  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17798.79
+2024-04-30 13:02:15 status is off, tue nichts
+TotalAC2Grid is:  17798.79
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column pv_totalyield value:  29009.4  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column total_home_consumption value:  15687.433  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17798.79
+2024-04-30 13:03:14 status is off, tue nichts
+TotalAC2Grid is:  17798.79
+filename:  /intenso/docker/volumes/postgre/python/database.ini
