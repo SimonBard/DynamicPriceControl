@@ -17,7 +17,9 @@ class Heatpump:
       self._simple_namespace['zone1']['heat']['target']['low'] = int(float(myha_connection.set_zone1_heat_target_low()))
     if myha_connection.set_zone1_heat_target_high() is not None:
       self._simple_namespace['zone1']['heat']['target']['high'] = int(float(myha_connection.set_zone1_heat_target_high()))
+    self.validate()
     
+  def validate(self):
     MINIMUM = 25 # heatpump minimum target temperature is 25°C
     if self._simple_namespace['zone1']['heat']['target']['high'] < MINIMUM:
       self._simple_namespace['zone1']['heat']['target']['high'] = MINIMUM
@@ -28,7 +30,7 @@ class Heatpump:
     #print ('target high from ha connection is: ' , self._simple_namespace['zone1']['heat']['target']['high'])
     self._simple_namespace['zone1']['heat']['target']['high']+=delta 
     self._simple_namespace['zone1']['heat']['target']['low']+=delta 
-    
+    self.validate()
     json_data = json.dumps(self._simple_namespace)
     return json_data
 
