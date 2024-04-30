@@ -4,4 +4,5 @@ numpy
 python-dotenv
 forecast_solar
 psycopg2-binary
+pymodbus
 

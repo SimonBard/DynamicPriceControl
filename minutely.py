@@ -28,12 +28,12 @@ def battery():
 
     # Write yield and consumption values to database
     today = datetime.now().strftime('%Y-%m-%d')
-    SManager = lib.manager.Manager()
+    dbmanager = lib.manager.Manager()
 
     simon_battery_control = myha_link.simon_battery_control()
     print("simon_battery_control: ", simon_battery_control)
     if simon_battery_control ==  "on":
-        hourly_values = SManager.retrieve_dict_from_hourly_values(today)
+        hourly_values = dbmanager.retrieve_dict_from_hourly_values(today)
         current_hour = int(datetime.now().strftime("%H"))
  
         print (timestamp,'Battery load: ', hourly_values[current_hour]['load_battery'])
@@ -65,13 +65,13 @@ def wp():
 
     # Write yield and consumption values to database
     today = datetime.now().strftime('%Y-%m-%d')
-    SManager = lib.manager.Manager()
+    dbmanager = lib.manager.Manager()
     print('TotalAC2Grid is: ', mybattery.getTotalAC2Grid())
     mytelegram = lib.telegram.Telegram()
     simon_wp_control = myha_link.simon_wp_control()
 
     if simon_wp_control ==  "on":
-        hourly_values = SManager.retrieve_dict_from_hourly_values(today)
+        hourly_values = dbmanager.retrieve_dict_from_hourly_values(today)
         current_hour = int(datetime.now().strftime("%H"))
         
         myheatpump = lib.heatpump.Heatpump()
@@ -79,14 +79,14 @@ def wp():
         print(timestamp,'Home Consumption is: ', mybattery.getTotalHomeConsumption())
         print(timestamp,'PV Production is: ', mybattery.getPVProduction())
         
-        if int(SManager.getcounter()) > 0:
+        if int(dbmanager.getcounter()) > 0:
             myheatpump.send_adapted_heating_curve(delta=10)
         else:
             if  (mybattery.getPVProduction() > 2000 and mybattery.get_currentsoc() > 80) :   # this means electricity is cheap  
                 print(timestamp,'PV is producing enough', mybattery.getPVProduction(), ' enhance heating curve')
                 mytelegram.message_all(timestamp +' PV macht genug Strom' + str(mybattery.getPVProduction()) + ' erhöhe Heizkurve stärker')
-                if int(SManager.getcounter()) < 1:
-                    SManager.write_counter(30)
+                if int(dbmanager.getcounter()) < 1:
+                    dbmanager.write_counter(30)
             else:
                 if hourly_values[current_hour]['statehp_recommendation']:   # this means electricity is cheap  
                     print(timestamp,'Energy is cheap, enhance heating curve')
@@ -141,10 +141,10 @@ def stats():
 
     # Write yield and consumption values to database
     today = datetime.now().strftime('%Y-%m-%d')
-    SManager = lib.manager.Manager()
-    SManager.write_demand(today, "pv_totalyield", mybattery.getTotalYield())
-    SManager.write_demand(today, "total_home_consumption", mybattery.getTotalHomeConsumption())
-    SManager.write_demand(today, 'totalac2grid', mybattery.getTotalAC2Grid())
+    dbmanager = lib.manager.Manager()
+    dbmanager.write_demand(today, "pv_totalyield", mybattery.getTotalYield())
+    dbmanager.write_demand(today, "total_home_consumption", mybattery.getTotalHomeConsumption())
+    dbmanager.write_demand(today, 'totalac2grid', mybattery.getTotalAC2Grid())
 
 if __name__ == "__main__":
     main()
