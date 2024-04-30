@@ -53,7 +53,6 @@ class Manager:
                 date DATE,
                 PRIMARY KEY (date),
                 demand_forecast REAL,
-                forecast_solar REAL,
                 total_home_consumption REAL,
                 home_consumption REAL,
                 forecast_solar REAL,
