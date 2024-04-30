@@ -33,13 +33,13 @@ optional:
 
 ## Setup and Configuration
 
-Download the files to a directory of your choice:
+Download the files to a directory of your choice.
 
 1. Start a docker container with postgre SQL.
-   You need to adapt the volume to your needs. Please choose a safe password instead of secret123$%&.
+   You need to adapt the volume to your needs. Please choose a safe password instead of secret123$%.
    
 ```
-docker run -d --name postgres-heatpump -e POSTGRES_PASSWORD=secret123$%& -e PGDATA=/var/lib/postgresql/data/pgdata -v /intenso/docker/volumes/postgre:/var/lib/postgresql/data --network nextcloudpi -p 8071:8080 -v /etc/timezone:/etc/timezone:ro -v /etc/localtime:/etc/localtime:ro -p 5432:5432 postgres
+docker run -d --name postgres-heatpump -e POSTGRES_PASSWORD=secret123$% -e PGDATA=/var/lib/postgresql/data/pgdata -v /intenso/docker/volumes/postgre:/var/lib/postgresql/data --network nextcloudpi -p 8071:8080 -v /etc/timezone:/etc/timezone:ro -v /etc/localtime:/etc/localtime:ro -p 5432:5432 postgres
 ```
 
 
