@@ -38,8 +38,9 @@ def process_pv_solcast():
     mymanager = lib.manager.Manager()
     inst = lib.pv_solcast.Solcast()
     forecast = inst.process_json()
-    for element in forecast:
-        mymanager.write_element_to_hourly_values(element['date'], element['hour'], 'pv_forecast', element['pv_estimate'])
+    if forecast is not None:
+        for element in forecast:
+            mymanager.write_element_to_hourly_values(element['date'], element['hour'], 'pv_forecast', element['pv_estimate'])
 
 def process_recommendations():
     today = (datetime.now() + timedelta(0)).strftime('%Y-%m-%d')

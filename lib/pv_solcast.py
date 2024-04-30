@@ -29,7 +29,11 @@ class Solcast:
     return data_json
   
   def process_json(self):
-    json = self.retrieveSolcastData()
+    try:
+      json = self.retrieveSolcastData()
+    except Exception as e:
+      print(e)
+      return None
     df = pd.DataFrame.from_dict(json['forecasts'], orient='columns')
     df['period_end'] = pd.to_datetime(df['period_end'], format='ISO8601')
     df_aggregated =  df.resample('60min', on='period_end').sum()
