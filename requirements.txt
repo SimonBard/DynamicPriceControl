@@ -1,7 +1,7 @@
 paho-mqtt
 requests
 numpy
-dotenv
+python-dotenv
 forecast_solar
 psycopg2
 
