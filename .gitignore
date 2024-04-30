@@ -1,3 +1,4 @@
 .env
 archiv/
+minutely.log
 __pycache__/
