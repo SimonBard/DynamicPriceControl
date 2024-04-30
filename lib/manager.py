@@ -9,7 +9,7 @@ class Manager:
         self.topic = ""
         self.message = ""
 
-    def drop_tables():
+    def drop_tables(self):
         """drop tables in the PostgreSQL database"""
         drop_commands = (
             """
@@ -45,7 +45,7 @@ class Manager:
             if conn is not None:
                 conn.close()
 
-    def create_tables():
+    def create_tables(self):
         """create tables in the PostgreSQL database"""
         commands = (
             """ 
