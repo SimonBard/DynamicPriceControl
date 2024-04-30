@@ -1,15 +1,11 @@
-
-import json
-import time, datetime
 import paho.mqtt.client as paho
 import os
 from dotenv import load_dotenv
 
-
-
 class Mqtt:
 
     def __init__(self):
+        load_dotenv()
         self.topic = ""
         self.message = ""
         self.broker = os.getenv('MQTT_BROKER')

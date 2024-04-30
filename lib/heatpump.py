@@ -1,12 +1,8 @@
-import asyncio
 import json
-from io import StringIO
-import json
-from types import SimpleNamespace
 import lib.mymqtt
-from types import SimpleNamespace
 import numpy
 import lib.ha_connection
+from dotenv import load_dotenv
 
 
 class Heatpump:
@@ -17,8 +13,10 @@ class Heatpump:
     self._simple_namespace = json.loads(self._heating_curve)
     myha_connection = lib.ha_connection.ha_link()
 
-    self._simple_namespace['zone1']['heat']['target']['low'] = int(float(myha_connection.set_zone1_heat_target_low()))
-    self._simple_namespace['zone1']['heat']['target']['high'] = int(float(myha_connection.set_zone1_heat_target_high()))
+    if myha_connection.set_zone1_heat_target_low() is not None:
+      self._simple_namespace['zone1']['heat']['target']['low'] = int(float(myha_connection.set_zone1_heat_target_low()))
+    if myha_connection.set_zone1_heat_target_high() is not None:
+      self._simple_namespace['zone1']['heat']['target']['high'] = int(float(myha_connection.set_zone1_heat_target_high()))
     
     MINIMUM = 25 # heatpump minimum target temperature is 25°C
     if self._simple_namespace['zone1']['heat']['target']['high'] < MINIMUM:
@@ -111,8 +109,6 @@ def main():
   #MyHeatpump.send_original_heating_curve()
 
   
-
-
 
 if __name__ == "__main__":
     main()

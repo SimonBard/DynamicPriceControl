@@ -9,11 +9,11 @@ import lib.manager
 import lib.mytibber
 import lib.pv_solcast
 import lib.simple_forecast_solar
-from forecast_solar import ForecastSolar
+import lib.heatpump
 from datetime import datetime, timedelta
 import asyncio
 import lib.weather
-#import lib.my_forecast_solar
+from dotenv import load_dotenv
 
 def process_temperature_forecast():
     dbmanager = lib.manager.Manager()
@@ -144,11 +144,11 @@ def process_forecast_solar():
 
 def main():
     print('Run daily routine')
-    # process_temperature_forecast()
-    # process_tibber()
-    # process_pv_solast()
-    # process_recommendations()
-    # process_forecast_solar()
+    process_temperature_forecast()
+    process_tibber()
+    process_pv_solast()
+    process_recommendations()
+    process_forecast_solar()
     process_stats()
 
 if __name__ == "__main__":

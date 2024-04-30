@@ -2,11 +2,13 @@
 
 import lib.manager
 import lib.heatpump
-from datetime import datetime, timedelta
+from datetime import datetime
 import lib.battery
 from requests import get
 import lib.ha_connection
 import lib.telegram
+from dotenv import load_dotenv
+import os
 
 
 def main():
@@ -17,6 +19,7 @@ def main():
 
 
 def battery():
+    load_dotenv()
     myha_link = lib.ha_connection.ha_link()
     mybattery = lib.battery.kostal_modbusquery()
     mybattery.run()
@@ -35,10 +38,10 @@ def battery():
  
         print (timestamp,'Battery load: ', hourly_values[current_hour]['load_battery'])
         print(timestamp,'Grid Power is: ', mybattery.getGridPower())
-        if hourly_values[current_hour]['load_battery'] == False: # this means electricity is expensive
+        if not hourly_values[current_hour]['load_battery']: # this means electricity is expensive
             print(timestamp,'energy is expensive right now. Let battery control itself') # do nothing, battery can be discharged
 
-        if hourly_values[current_hour]['load_battery'] == True:   # this means electricity is cheap  
+        if hourly_values[current_hour]['load_battery']:   # this means electricity is cheap  
                 print(timestamp,'Battery should load now')
                 mybattery.load_battery_1min(-5000)
                 
@@ -63,19 +66,15 @@ def wp():
     # Write yield and consumption values to database
     today = datetime.now().strftime('%Y-%m-%d')
     SManager = lib.manager.Manager()
-    
     print('TotalAC2Grid is: ', mybattery.getTotalAC2Grid())
-
     mytelegram = lib.telegram.Telegram()
     simon_wp_control = myha_link.simon_wp_control()
-
 
     if simon_wp_control ==  "on":
         hourly_values = SManager.retrieve_dict_from_hourly_values(today)
         current_hour = int(datetime.now().strftime("%H"))
         
         myheatpump = lib.heatpump.Heatpump()
-
         print (timestamp,'state hp recommendation: ', hourly_values[current_hour]['statehp_recommendation'])
         print(timestamp,'Home Consumption is: ', mybattery.getTotalHomeConsumption())
         print(timestamp,'PV Production is: ', mybattery.getPVProduction())
@@ -89,13 +88,13 @@ def wp():
                 if int(SManager.getcounter()) < 1:
                     SManager.write_counter(30)
             else:
-                if hourly_values[current_hour]['statehp_recommendation'] == True:   # this means electricity is cheap  
+                if hourly_values[current_hour]['statehp_recommendation']:   # this means electricity is cheap  
                     print(timestamp,'Energy is cheap, enhance heating curve')
                     mytelegram.message_all(timestamp + ' Energie ist gerade billig, erhöhe Heizkurve leicht')
                     myheatpump.send_adapted_heating_curve(delta=5)    
                 else:
                     #myheatpump.send_original_heating_curve()
-                    if hourly_values[current_hour]['statehp_recommendation'] == False:  # this means electricity is expensive
+                    if not hourly_values[current_hour]['statehp_recommendation']:  # this means electricity is expensive
                         print(timestamp,'energy is expensive right now, heatpump reduce temperature') # do nothing, battery can be discharged
                         mytelegram.message_all(timestamp + ' Energie ist gerade teuer, reduziere Heizkurve') # do nothing, battery can be discharged
                         myheatpump.send_adapted_heating_curve(delta=-10)
@@ -117,11 +116,6 @@ def battery_charge_switch():
     minsoc = myha_link.minsoc_attempt()
     current_soc = mybattery.get_currentsoc()
     timestamp = f'{datetime.now():%Y-%m-%d %H:%M:%S%z}'
-
-    # Write yield and consumption values to database
-    today = datetime.now().strftime('%Y-%m-%d')
-    SManager = lib.manager.Manager()
-    
     print('TotalAC2Grid is: ', mybattery.getTotalAC2Grid())
 
     mytelegram = lib.telegram.Telegram()

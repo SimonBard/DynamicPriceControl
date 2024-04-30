@@ -1,26 +1,16 @@
-import lib.mymqtt
-import sys
+
 import psycopg2
 from lib.config import config
-import lib.awattar
-import lib.weather
-import lib.mytibber
-import asyncio
-#import lib.my_forecast_solar
-from forecast_solar import ForecastSolar
-from datetime import datetime, timedelta
-import lib.heatpump
-import os
-from dotenv import load_dotenv
+
+
 
 class Manager:
-
     def __init__(self):
         self.topic = ""
         self.message = ""
 
     def drop_tables():
-        """ drop tables in the PostgreSQL database"""
+        """drop tables in the PostgreSQL database"""
         drop_commands = (
             """
             DROP TABLE IF EXISTS COP CASCADE
@@ -33,8 +23,7 @@ class Manager:
             """,
             """
             DROP TABLE IF EXISTS counter CASCADE
-            """
-            
+            """,
         )
         conn = None
         try:
@@ -57,10 +46,8 @@ class Manager:
                 conn.close()
 
     def create_tables():
-        
-        """ create tables in the PostgreSQL database"""
+        """create tables in the PostgreSQL database"""
         commands = (
-            
             """ 
             CREATE TABLE demand (
                 date DATE,
@@ -103,7 +90,8 @@ class Manager:
                     statehp_recommendation BOOLEAN,
                     load_battery BOOLEAN
             )
-            """)
+            """,
+        )
         conn = None
         try:
             # read the connection parameters
@@ -124,44 +112,19 @@ class Manager:
             if conn is not None:
                 conn.close()
 
-    
-    
     def write_element_to_hourly_values(self, date: str, hour: int, column: str, data):
-
-            sql = """INSERT INTO hourly_data(date, hour, """ + column + """)
+        sql = (
+            """INSERT INTO hourly_data(date, hour, """
+            + column
+            + """)
                     VALUES(%s, %s, %s) 
-                ON CONFLICT (date, hour) DO UPDATE SET """ + column + """ =  EXCLUDED.""" + column + """;"""
-            print('write value: ', data, ' to column ',  column, "in line ", date, " ", hour)
-            
-            conn = None
-            try:
-                # read database configuration
-                params = config()
-                # connect to the PostgreSQL database
-                conn = psycopg2.connect(**params)
-                # create a new cursor
-                #print('connected to db')
-                cur = conn.cursor()
-                # execute the INSERT statement
-                cur.execute(sql, (date, hour, 
-                    data
-                    ))
-                # commit the changes to the database
-                conn.commit()
-                # close communication with the database
-                cur.close()
-            except (Exception, psycopg2.DatabaseError) as error:
-                print('db error: ')
-                print(error)
-            finally:
-                if conn is not None:
-                    conn.close()
-
-    def write_demand(self, date, column, value):
-    
-        sql = """INSERT INTO demand(date, """ + column + """)
-                    VALUES(%s, %s) 
-                ON CONFLICT (date) DO UPDATE SET """ + column + """ =  EXCLUDED.""" + column + """;"""
+                ON CONFLICT (date, hour) DO UPDATE SET """
+            + column
+            + """ =  EXCLUDED."""
+            + column
+            + """;"""
+        )
+        print("write value: ", data, " to column ", column, "in line ", date, " ", hour)
 
         conn = None
         try:
@@ -170,26 +133,65 @@ class Manager:
             # connect to the PostgreSQL database
             conn = psycopg2.connect(**params)
             # create a new cursor
-            #print('connected to db')
+            # print('connected to db')
             cur = conn.cursor()
             # execute the INSERT statement
-            cur.execute(sql, (date,  
-                value
-                ))
-            print('write to table demand in column',column, 'value: ', value, ' for date: ' , date)
+            cur.execute(sql, (date, hour, data))
             # commit the changes to the database
             conn.commit()
             # close communication with the database
             cur.close()
         except (Exception, psycopg2.DatabaseError) as error:
-            print('db error: ')
+            print("db error: ")
             print(error)
         finally:
             if conn is not None:
                 conn.close()
-    
+
+    def write_demand(self, date, column, value):
+        sql = (
+            """INSERT INTO demand(date, """
+            + column
+            + """)
+                    VALUES(%s, %s) 
+                ON CONFLICT (date) DO UPDATE SET """
+            + column
+            + """ =  EXCLUDED."""
+            + column
+            + """;"""
+        )
+
+        conn = None
+        try:
+            # read database configuration
+            params = config()
+            # connect to the PostgreSQL database
+            conn = psycopg2.connect(**params)
+            # create a new cursor
+            # print('connected to db')
+            cur = conn.cursor()
+            # execute the INSERT statement
+            cur.execute(sql, (date, value))
+            print(
+                "write to table demand in column",
+                column,
+                "value: ",
+                value,
+                " for date: ",
+                date,
+            )
+            # commit the changes to the database
+            conn.commit()
+            # close communication with the database
+            cur.close()
+        except (Exception, psycopg2.DatabaseError) as error:
+            print("db error: ")
+            print(error)
+        finally:
+            if conn is not None:
+                conn.close()
+
     def write_counter(self, value: int):
-    
         sql = """ UPDATE counter SET pv_overshoot_duration='""" + str(value) + """';"""
         conn = None
         try:
@@ -198,32 +200,27 @@ class Manager:
             # connect to the PostgreSQL database
             conn = psycopg2.connect(**params)
             # create a new cursor
-            #print('connected to db')
+            # print('connected to db')
             cur = conn.cursor()
             # execute the INSERT statement
-            cur.execute(sql, (  
-                value
-                ))
-            #print('values written to db')
+            cur.execute(sql, (value))
+            # print('values written to db')
             # commit the changes to the database
             conn.commit()
             # close communication with the database
             cur.close()
         except (Exception, psycopg2.DatabaseError) as error:
-            print('db error: ')
+            print("db error: ")
             print(error)
         finally:
             if conn is not None:
                 conn.close()
 
-
-            
-    def getcounter(self)->int:
-    
+    def getcounter(self) -> int:
         postgreSQL_select_Query = """SELECT pv_overshoot_duration FROM counter ;"""
-        #print(postgreSQL_select_Query)
+        # print(postgreSQL_select_Query)
         try:
-                        # read database configuration
+            # read database configuration
             params = config()
             # connect to the PostgreSQL database
             connection = psycopg2.connect(**params)
@@ -240,21 +237,18 @@ class Manager:
                 cursor.close()
                 connection.close()
                 return mobile_records[0][0]
-                #print("PostgreSQL connection is closed")
+                # print("PostgreSQL connection is closed")
 
-    
-    
-    def retrieve_dict_from_hourly_values(self, date: str)->list:
-        # returns a list of dict from database hourly_data for the specific date (so hour = 0..23). 
+    def retrieve_dict_from_hourly_values(self, date: str) -> list:
+        # returns a list of dict from database hourly_data for the specific date (so hour = 0..23).
         # keys are the column names of the table.
         """
         Run generic select query on db, returns a list of dictionaries
         """
 
         # Open a cursor to perform database operations
-        query = """SELECT * FROM hourly_data WHERE date='""" + date +  """';"""
-        data=[]
-
+        query = """SELECT * FROM hourly_data WHERE date='""" + date + """';"""
+        data = []
         # execute the query
         try:
             params = config()
@@ -266,9 +260,10 @@ class Manager:
                 cursor.execute(query)
             columns = list(cursor.description)
             result = cursor.fetchall()
-            
+
         except (Exception, psycopg2.DatabaseError) as e:
             cursor.close()
+            print(e)
             exit(1)
 
         cursor.close()
@@ -280,14 +275,14 @@ class Manager:
             for i, col in enumerate(columns):
                 row_dict[col.name] = row[i]
             results.append(row_dict)
-    
-        sorted_list = sorted(results, key=lambda d:d['hour'])
+
+        sorted_list = sorted(results, key=lambda d: d["hour"])
         return sorted_list
-    
-    def demand_retrieve_list(self)->list:
+
+    def demand_retrieve_list(self) -> list:
         # Open a cursor to perform database operations
         query = """SELECT * FROM demand;"""
-        data=[]
+        data = []
         # execute the query
         try:
             params = config()
@@ -298,9 +293,10 @@ class Manager:
             else:
                 cursor.execute(query)
             columns = list(cursor.description)
-            result = cursor.fetchall()            
+            result = cursor.fetchall()
         except (Exception, psycopg2.DatabaseError) as e:
             cursor.close()
+            print(e)
             exit(1)
         cursor.close()
         connection.close()
@@ -311,14 +307,14 @@ class Manager:
             for i, col in enumerate(columns):
                 row_dict[col.name] = row[i]
             results.append(row_dict)
-    
-        sorted_list = sorted(results, key=lambda d:d['date'])
+
+        sorted_list = sorted(results, key=lambda d: d["date"])
         return sorted_list
-    
-    def demand_retrieve_dict(self, date)->dict:
+
+    def demand_retrieve_dict(self, date) -> dict:
         # Open a cursor to perform database operations
-        query = """SELECT * FROM demand WHERE date='""" + date +  """';"""
-        data=[]
+        query = """SELECT * FROM demand WHERE date='""" + date + """';"""
+        data = []
         # execute the query
         try:
             params = config()
@@ -329,22 +325,23 @@ class Manager:
             else:
                 cursor.execute(query)
             columns = list(cursor.description)
-            row = cursor.fetchall()         
+            row = cursor.fetchall()
         except (Exception, psycopg2.DatabaseError) as e:
             cursor.close()
+            print(e)
             exit(1)
         cursor.close()
         connection.close()
         # make dict
         row_dict = {}
         for i, col in enumerate(columns):
-            #print (i, col, row[0][i])
+            # print (i, col, row[0][i])
             row_dict[col.name] = row[0][i]
-    
+
         return row_dict
-    
+
+
 def main():
-    
     # inst = Manager()
     # row_list = inst.retrieve_dict('2024-01-29')
 
@@ -365,6 +362,7 @@ def main():
     #         inst.write_demand(demand[n]['date'], 'pv_production', pv_production)
     #     except Exception as e:
     #         print(e)
-    
+
+
 if __name__ == "__main__":
     main()
