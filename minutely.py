@@ -47,7 +47,7 @@ def battery():
                 
         if mybattery.getPVProduction() < mybattery.getTotalHomeConsumption():
             print('Consumption is higher than production')
-            if hourly_values[current_hour]['load_battery'] == None: 
+            if hourly_values[current_hour]['load_battery'] is None: 
                 print(timestamp,'energy is neither expensive nor cheap. Hold SOC')
                 mybattery.load_battery_1min(0)
         else: 
