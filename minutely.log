@@ -248,3 +248,387 @@ TotalAC2Grid is:  17812.832
 counter is:  -20
 2024-04-30 21:16:21 energy is expensive right now, heatpump reduce temperature
 connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:15:54 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:16:42 state hp recommendation:  None
+2024-04-30 21:16:42 Home Consumption is:  15689.315
+2024-04-30 21:16:42 PV Production is:  4.4
+counter is:  -21
+2024-04-30 21:16:42 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:16:00 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:16:48 state hp recommendation:  None
+2024-04-30 21:16:48 Home Consumption is:  15689.315
+2024-04-30 21:16:48 PV Production is:  6.14
+counter is:  -22
+2024-04-30 21:16:48 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:16:19 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:03 state hp recommendation:  None
+2024-04-30 21:17:03 Home Consumption is:  15689.315
+2024-04-30 21:17:03 PV Production is:  6.57
+counter is:  -23
+2024-04-30 21:17:03 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:16:22 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:05 state hp recommendation:  None
+2024-04-30 21:17:05 Home Consumption is:  15689.315
+2024-04-30 21:17:05 PV Production is:  5.17
+counter is:  -24
+2024-04-30 21:17:05 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:16:25 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:07 state hp recommendation:  None
+2024-04-30 21:17:07 Home Consumption is:  15689.315
+2024-04-30 21:17:07 PV Production is:  5.13
+counter is:  -25
+2024-04-30 21:17:07 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:16:40 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:23 state hp recommendation:  None
+2024-04-30 21:17:23 Home Consumption is:  15689.315
+2024-04-30 21:17:23 PV Production is:  6.12
+counter is:  -26
+2024-04-30 21:17:23 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:16:42 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:23 state hp recommendation:  None
+2024-04-30 21:17:23 Home Consumption is:  15689.315
+2024-04-30 21:17:23 PV Production is:  6.8
+counter is:  -27
+2024-04-30 21:17:23 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:16:44 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:24 state hp recommendation:  None
+2024-04-30 21:17:24 Home Consumption is:  15689.315
+2024-04-30 21:17:24 PV Production is:  6.99
+counter is:  -28
+2024-04-30 21:17:24 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:16:43 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:26 state hp recommendation:  None
+2024-04-30 21:17:26 Home Consumption is:  15689.315
+2024-04-30 21:17:26 PV Production is:  7.35
+counter is:  -29
+2024-04-30 21:17:26 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:16:49 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:30 state hp recommendation:  None
+2024-04-30 21:17:30 Home Consumption is:  15689.315
+2024-04-30 21:17:30 PV Production is:  7.08
+counter is:  -30
+2024-04-30 21:17:30 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:16:47 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:32 state hp recommendation:  None
+2024-04-30 21:17:32 Home Consumption is:  15689.315
+2024-04-30 21:17:32 PV Production is:  7.08
+counter is:  -31
+2024-04-30 21:17:32 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:16:29 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:32 state hp recommendation:  None
+2024-04-30 21:17:32 Home Consumption is:  15689.315
+2024-04-30 21:17:32 PV Production is:  5.8
+counter is:  -32
+2024-04-30 21:17:32 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:16:56 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:35 state hp recommendation:  None
+2024-04-30 21:17:35 Home Consumption is:  15689.315
+2024-04-30 21:17:35 PV Production is:  6.29
+counter is:  -33
+2024-04-30 21:17:35 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:16:59 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:37 state hp recommendation:  None
+2024-04-30 21:17:37 Home Consumption is:  15689.315
+2024-04-30 21:17:37 PV Production is:  5.8
+counter is:  -34
+2024-04-30 21:17:37 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:04 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:40 state hp recommendation:  None
+2024-04-30 21:17:40 Home Consumption is:  15689.315
+2024-04-30 21:17:40 PV Production is:  4.85
+counter is:  -35
+2024-04-30 21:17:40 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:04 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:40 state hp recommendation:  None
+2024-04-30 21:17:40 Home Consumption is:  15689.315
+2024-04-30 21:17:40 PV Production is:  4.64
+counter is:  -36
+2024-04-30 21:17:40 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:16:58 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:41 state hp recommendation:  None
+2024-04-30 21:17:41 Home Consumption is:  15689.315
+2024-04-30 21:17:41 PV Production is:  4.95
+counter is:  -37
+2024-04-30 21:17:41 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:08 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:43 state hp recommendation:  None
+2024-04-30 21:17:43 Home Consumption is:  15689.315
+2024-04-30 21:17:43 PV Production is:  4.12
+counter is:  -38
+2024-04-30 21:17:43 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:16:59 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:44 state hp recommendation:  None
+2024-04-30 21:17:44 Home Consumption is:  15689.315
+2024-04-30 21:17:44 PV Production is:  4.89
+counter is:  -39
+2024-04-30 21:17:44 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:16:41 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:44 state hp recommendation:  None
+2024-04-30 21:17:44 Home Consumption is:  15689.315
+2024-04-30 21:17:44 PV Production is:  6.29
+counter is:  -40
+2024-04-30 21:17:44 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.318  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:11 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:45 state hp recommendation:  None
+2024-04-30 21:17:45 Home Consumption is:  15689.315
+2024-04-30 21:17:45 PV Production is:  4.74
+counter is:  -41
+2024-04-30 21:17:45 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:10 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:45 state hp recommendation:  None
+2024-04-30 21:17:45 Home Consumption is:  15689.315
+2024-04-30 21:17:45 PV Production is:  4.32
+counter is:  -42
+2024-04-30 21:17:45 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.318  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:26 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:51 state hp recommendation:  None
+2024-04-30 21:17:51 Home Consumption is:  15689.315
+2024-04-30 21:17:51 PV Production is:  6.7
+counter is:  -43
+2024-04-30 21:17:51 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:18 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:51 state hp recommendation:  None
+2024-04-30 21:17:51 Home Consumption is:  15689.315
+2024-04-30 21:17:51 PV Production is:  6.28
+counter is:  -44
+2024-04-30 21:17:51 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:22 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:51 state hp recommendation:  None
+2024-04-30 21:17:51 Home Consumption is:  15689.315
+2024-04-30 21:17:51 PV Production is:  6.85
+counter is:  -45
+2024-04-30 21:17:51 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.318  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:26 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:52 state hp recommendation:  None
+2024-04-30 21:17:52 Home Consumption is:  15689.315
+2024-04-30 21:17:52 PV Production is:  6.26
+counter is:  -46
+2024-04-30 21:17:52 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.318  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:27 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:55 state hp recommendation:  None
+2024-04-30 21:17:55 Home Consumption is:  15689.315
+2024-04-30 21:17:55 PV Production is:  6.06
+counter is:  -47
+2024-04-30 21:17:55 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.304  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:30 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:56 state hp recommendation:  None
+2024-04-30 21:17:56 Home Consumption is:  15689.315
+2024-04-30 21:17:56 PV Production is:  5.72
+counter is:  -48
+2024-04-30 21:17:56 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.318  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.299  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:41 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:57 state hp recommendation:  None
+2024-04-30 21:17:57 Home Consumption is:  15689.315
+2024-04-30 21:17:57 PV Production is:  6.19
+counter is:  -49
+2024-04-30 21:17:57 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.318  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.315  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:34 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:17:57 state hp recommendation:  None
+2024-04-30 21:17:57 Home Consumption is:  15689.315
+2024-04-30 21:17:57 PV Production is:  5.72
+counter is:  -50
+2024-04-30 21:17:57 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.318  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.315  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:18:01 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:18:08 state hp recommendation:  None
+2024-04-30 21:18:08 Home Consumption is:  15689.315
+2024-04-30 21:18:08 PV Production is:  4.38
+counter is:  -51
+2024-04-30 21:18:08 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29025.318  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15689.315  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17812.832  for date:  2024-04-30
+TotalAC2Grid is:  17812.832
+2024-04-30 21:18:15 Accu charge switch is off, do nothing
+TotalAC2Grid is:  17812.832
+2024-04-30 21:18:21 state hp recommendation:  None
+2024-04-30 21:18:21 Home Consumption is:  15689.315
+2024-04-30 21:18:21 PV Production is:  5.25
+counter is:  -52
+2024-04-30 21:18:21 energy is expensive right now, heatpump reduce temperature
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 25, "low": 15}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
