@@ -471,16 +471,16 @@ class kostal_modbusquery:
         return (self.Adr[260][3])
     #self.Adr[260] = [260,"Power DC1", "Float"]
 
-    def getTotalHomeConsumption(self):
-        #self.Adr[118] = [118,"Total home consumption", "Float"]
-        #self.Adr[116] = [116,"Home own consumption from PV", "Float"]
-        #self.Adr[108] = [108,"Home own consumption from grid", "Float"]
-        #self.Adr[106] = [106,"Home own consumption from battery", "Float"]
-        Home_own_consumption_from_PV = self.Adr[116][3]
-        Home_own_consumption_from_grid = self.Adr[108][3]
-        Home_own_consumption_from_battery = self.Adr[106][3]
-        Sum_consumption = Home_own_consumption_from_PV + Home_own_consumption_from_grid + Home_own_consumption_from_battery
-        return Sum_consumption
+    # def getTotalHomeConsumption(self):
+    #     #self.Adr[118] = [118,"Total home consumption", "Float"]
+    #     #self.Adr[116] = [116,"Home own consumption from PV", "Float"]
+    #     #self.Adr[108] = [108,"Home own consumption from grid", "Float"]
+    #     #self.Adr[106] = [106,"Home own consumption from battery", "Float"]
+    #     Home_own_consumption_from_PV = self.Adr[116][3]
+    #     Home_own_consumption_from_grid = self.Adr[108][3]
+    #     Home_own_consumption_from_battery = self.Adr[106][3]
+    #     Sum_consumption = Home_own_consumption_from_PV + Home_own_consumption_from_grid + Home_own_consumption_from_battery
+    #     return Sum_consumption
 
     def getTotalAC2Grid(self):
         return (self.Adr[1064][3]/1000)

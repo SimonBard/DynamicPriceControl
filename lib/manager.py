@@ -342,26 +342,9 @@ class Manager:
 
 
 def main():
-    # inst = Manager()
-    # row_list = inst.retrieve_dict('2024-01-29')
-
-    # for n in range(0, len(row_list)):
-    #   print (n, row_list[n]['hour'], row_list[n]['tibber_brutto'])
-
-    inst = Manager()
-    inst.write_counter(3)
-    # demand = inst.demand_retrieve_dict()
-    # for n in range(0, len(demand)-1):
-    #     try:
-    #         homeconsumption = demand[n]['total_home_consumption'] - demand[n-1]['total_home_consumption']
-    #         #print (demand[n]['date'], demand[n]['total_home_consumption'], homeconsumption)
-    #         print('write consumption for date' , demand[n]['date'], demand[n]['total_home_consumption'], homeconsumption)
-    #         inst.write_demand(demand[n]['date'], 'home_consumption', homeconsumption)
-    #         print('write production for date' , demand[n]['date'])
-    #         pv_production = demand[n]['pv_totalyield'] - demand[n-1]['pv_totalyield']
-    #         inst.write_demand(demand[n]['date'], 'pv_production', pv_production)
-    #     except Exception as e:
-    #         print(e)
+    dbmanager = Manager()
+    dbmanager.setup()
+    
 
 
 if __name__ == "__main__":
