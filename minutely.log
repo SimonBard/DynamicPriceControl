@@ -7545,3 +7545,102 @@ filename:  /intenso/docker/volumes/postgre/python/database.ini
 2024-04-30 12:52:20 PV Production is:  4493.07
 filename:  /intenso/docker/volumes/postgre/python/database.ini
 connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column pv_totalyield value:  29008.68  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column total_home_consumption value:  15687.202  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column totalac2grid value:  17798.302  for date:  2024-04-30
+TotalAC2Grid is:  17798.302
+2024-04-30 12:53:15 status is off, tue nichts
+TotalAC2Grid is:  17798.302
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+2024-04-30 12:53:21 state hp recommendation:  True
+2024-04-30 12:53:21 Home Consumption is:  15687.202
+2024-04-30 12:53:21 PV Production is:  4481.44
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column pv_totalyield value:  29008.68  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column total_home_consumption value:  15687.202  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17798.302
+2024-04-30 12:54:14 status is off, tue nichts
+TotalAC2Grid is:  17798.302
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column pv_totalyield value:  29008.68  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column total_home_consumption value:  15687.202  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17798.302
+2024-04-30 12:55:15 status is off, tue nichts
+TotalAC2Grid is:  17798.302
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column pv_totalyield value:  29009.038  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column total_home_consumption value:  15687.306  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17798.556
+2024-04-30 12:56:14 status is off, tue nichts
+TotalAC2Grid is:  17798.556
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column pv_totalyield value:  29009.038  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column total_home_consumption value:  15687.306  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17798.556
+2024-04-30 12:57:14 status is off, tue nichts
+TotalAC2Grid is:  17798.556
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column pv_totalyield value:  29009.038  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column total_home_consumption value:  15687.306  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17798.556
+2024-04-30 12:58:14 status is off, tue nichts
+TotalAC2Grid is:  17798.556
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column pv_totalyield value:  29009.038  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column total_home_consumption value:  15687.306  for date:  2024-04-30
+filename:  /intenso/docker/volumes/postgre/python/database.ini
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17798.556
+2024-04-30 12:59:14 status is off, tue nichts
+TotalAC2Grid is:  17798.556
+filename:  /intenso/docker/volumes/postgre/python/database.ini
