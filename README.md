@@ -4,7 +4,9 @@ The script is very basic right now, but will be more advanced in the future.
 Its a beta phase, the code is not very beautiful and not following basic coding conventions, but will be corrected. 
 
 ## Sponsoring
-If you would like to support me, you can use my code to register for tibber: 
+If you would like to support me, you can use my code to register for tibber: 5f218fz1
+https://invite.tibber.com/5f218fz1
+
 You will get 50€ for their store and at least right now in Germany, you get also 30€ discount for an ADAC membership (I can provide a ADAC number if you do not have one). 
 You can also just make a new contract with tibber to get the voucher of 50€. 
 
