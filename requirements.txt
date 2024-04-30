@@ -1,4 +1,4 @@
-paho
+paho-mqtt
 requests
 numpy
 dotenv
