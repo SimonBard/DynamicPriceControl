@@ -9235,3 +9235,373 @@ TotalAC2Grid is:  17809.532
 2024-04-30 16:12:20 Home Consumption is:  15688.303
 2024-04-30 16:12:20 PV Production is:  2960.99
 connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.01  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.303  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17809.532  for date:  2024-04-30
+TotalAC2Grid is:  17809.532
+2024-04-30 16:13:14 status is off, tue nichts
+TotalAC2Grid is:  17809.532
+2024-04-30 16:13:20 state hp recommendation:  None
+2024-04-30 16:13:20 Home Consumption is:  15688.303
+2024-04-30 16:13:20 PV Production is:  2884.86
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.01  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.303  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17809.532  for date:  2024-04-30
+TotalAC2Grid is:  17809.532
+2024-04-30 16:14:15 status is off, tue nichts
+TotalAC2Grid is:  17809.532
+2024-04-30 16:14:21 state hp recommendation:  None
+2024-04-30 16:14:21 Home Consumption is:  15688.303
+2024-04-30 16:14:21 PV Production is:  2894.27
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.01  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.303  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17809.532  for date:  2024-04-30
+TotalAC2Grid is:  17809.532
+2024-04-30 16:15:15 status is off, tue nichts
+TotalAC2Grid is:  17809.532
+2024-04-30 16:15:21 state hp recommendation:  None
+2024-04-30 16:15:21 Home Consumption is:  15688.303
+2024-04-30 16:15:21 PV Production is:  2915.13
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.248  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.318  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17809.752  for date:  2024-04-30
+TotalAC2Grid is:  17809.752
+2024-04-30 16:16:15 status is off, tue nichts
+TotalAC2Grid is:  17809.752
+2024-04-30 16:16:21 state hp recommendation:  None
+2024-04-30 16:16:21 Home Consumption is:  15688.318
+2024-04-30 16:16:21 PV Production is:  2912.48
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.248  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.318  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17809.752  for date:  2024-04-30
+TotalAC2Grid is:  17809.752
+2024-04-30 16:17:14 status is off, tue nichts
+TotalAC2Grid is:  17809.752
+2024-04-30 16:17:20 state hp recommendation:  None
+2024-04-30 16:17:20 Home Consumption is:  15688.318
+2024-04-30 16:17:20 PV Production is:  2907.66
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.248  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.318  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17809.752  for date:  2024-04-30
+TotalAC2Grid is:  17809.752
+2024-04-30 16:18:15 status is off, tue nichts
+TotalAC2Grid is:  17809.752
+2024-04-30 16:18:20 state hp recommendation:  None
+2024-04-30 16:18:20 Home Consumption is:  15688.318
+2024-04-30 16:18:20 PV Production is:  2857.01
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.248  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.318  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17809.752  for date:  2024-04-30
+TotalAC2Grid is:  17809.752
+2024-04-30 16:19:15 status is off, tue nichts
+TotalAC2Grid is:  17809.752
+2024-04-30 16:19:21 state hp recommendation:  None
+2024-04-30 16:19:21 Home Consumption is:  15688.318
+2024-04-30 16:19:21 PV Production is:  2883.05
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.248  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.318  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17809.752  for date:  2024-04-30
+TotalAC2Grid is:  17809.752
+2024-04-30 16:20:15 status is off, tue nichts
+TotalAC2Grid is:  17809.752
+2024-04-30 16:20:21 state hp recommendation:  None
+2024-04-30 16:20:21 Home Consumption is:  15688.318
+2024-04-30 16:20:21 PV Production is:  2880.39
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.478  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.334  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17809.968  for date:  2024-04-30
+TotalAC2Grid is:  17809.968
+2024-04-30 16:21:17 status is off, tue nichts
+TotalAC2Grid is:  17809.968
+2024-04-30 16:21:23 state hp recommendation:  None
+2024-04-30 16:21:23 Home Consumption is:  15688.334
+2024-04-30 16:21:23 PV Production is:  2869.39
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.478  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.334  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17809.968  for date:  2024-04-30
+TotalAC2Grid is:  17809.968
+2024-04-30 16:22:14 status is off, tue nichts
+TotalAC2Grid is:  17809.968
+2024-04-30 16:22:20 state hp recommendation:  None
+2024-04-30 16:22:20 Home Consumption is:  15688.334
+2024-04-30 16:22:20 PV Production is:  2858.91
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.478  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.334  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17809.968  for date:  2024-04-30
+TotalAC2Grid is:  17809.968
+2024-04-30 16:23:15 status is off, tue nichts
+TotalAC2Grid is:  17809.968
+2024-04-30 16:23:20 state hp recommendation:  None
+2024-04-30 16:23:20 Home Consumption is:  15688.334
+2024-04-30 16:23:20 PV Production is:  2844.76
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.478  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.334  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17809.968  for date:  2024-04-30
+TotalAC2Grid is:  17809.968
+2024-04-30 16:24:14 status is off, tue nichts
+TotalAC2Grid is:  17809.968
+2024-04-30 16:24:20 state hp recommendation:  None
+2024-04-30 16:24:20 Home Consumption is:  15688.334
+2024-04-30 16:24:20 PV Production is:  2816.83
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.706  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.334  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.18  for date:  2024-04-30
+TotalAC2Grid is:  17810.18
+2024-04-30 16:25:15 status is off, tue nichts
+TotalAC2Grid is:  17810.18
+2024-04-30 16:25:21 state hp recommendation:  None
+2024-04-30 16:25:21 Home Consumption is:  15688.35
+2024-04-30 16:25:21 PV Production is:  2776.97
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.706  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.35  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.18  for date:  2024-04-30
+TotalAC2Grid is:  17810.18
+2024-04-30 16:26:15 status is off, tue nichts
+TotalAC2Grid is:  17810.18
+2024-04-30 16:26:21 state hp recommendation:  None
+2024-04-30 16:26:21 Home Consumption is:  15688.35
+2024-04-30 16:26:21 PV Production is:  2732.49
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.706  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.35  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.18  for date:  2024-04-30
+TotalAC2Grid is:  17810.18
+2024-04-30 16:27:14 status is off, tue nichts
+TotalAC2Grid is:  17810.18
+2024-04-30 16:27:20 state hp recommendation:  None
+2024-04-30 16:27:20 Home Consumption is:  15688.35
+2024-04-30 16:27:20 PV Production is:  2568.76
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.706  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.35  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.18  for date:  2024-04-30
+TotalAC2Grid is:  17810.18
+2024-04-30 16:28:15 status is off, tue nichts
+TotalAC2Grid is:  17810.18
+2024-04-30 16:28:21 state hp recommendation:  None
+2024-04-30 16:28:21 Home Consumption is:  15688.35
+2024-04-30 16:28:21 PV Production is:  2419.52
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.706  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.35  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.18  for date:  2024-04-30
+TotalAC2Grid is:  17810.18
+2024-04-30 16:29:14 status is off, tue nichts
+TotalAC2Grid is:  17810.18
+2024-04-30 16:29:20 state hp recommendation:  None
+2024-04-30 16:29:20 Home Consumption is:  15688.35
+2024-04-30 16:29:20 PV Production is:  2419.03
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.706  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.35  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.18  for date:  2024-04-30
+TotalAC2Grid is:  17810.18
+2024-04-30 16:30:15 status is off, tue nichts
+TotalAC2Grid is:  17810.362
+2024-04-30 16:30:21 state hp recommendation:  None
+2024-04-30 16:30:21 Home Consumption is:  15688.35
+2024-04-30 16:30:21 PV Production is:  2491.76
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.912  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.373  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.362  for date:  2024-04-30
+TotalAC2Grid is:  17810.362
+2024-04-30 16:31:15 status is off, tue nichts
+TotalAC2Grid is:  17810.362
+2024-04-30 16:31:20 state hp recommendation:  None
+2024-04-30 16:31:20 Home Consumption is:  15688.373
+2024-04-30 16:31:20 PV Production is:  2526.28
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.912  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.373  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.362  for date:  2024-04-30
+TotalAC2Grid is:  17810.362
+2024-04-30 16:32:14 status is off, tue nichts
+TotalAC2Grid is:  17810.362
+2024-04-30 16:32:20 state hp recommendation:  None
+2024-04-30 16:32:20 Home Consumption is:  15688.373
+2024-04-30 16:32:20 PV Production is:  2591.22
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.912  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.373  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.362  for date:  2024-04-30
+TotalAC2Grid is:  17810.362
+2024-04-30 16:33:14 status is off, tue nichts
+TotalAC2Grid is:  17810.362
+2024-04-30 16:33:20 state hp recommendation:  None
+2024-04-30 16:33:20 Home Consumption is:  15688.373
+2024-04-30 16:33:20 PV Production is:  2589.27
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.912  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.373  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.362  for date:  2024-04-30
+TotalAC2Grid is:  17810.362
+2024-04-30 16:34:15 status is off, tue nichts
+TotalAC2Grid is:  17810.362
+2024-04-30 16:34:21 state hp recommendation:  None
+2024-04-30 16:34:21 Home Consumption is:  15688.373
+2024-04-30 16:34:21 PV Production is:  2599.0
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29021.912  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.373  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.362  for date:  2024-04-30
+TotalAC2Grid is:  17810.362
+2024-04-30 16:35:14 status is off, tue nichts
+TotalAC2Grid is:  17810.362
+2024-04-30 16:35:20 state hp recommendation:  None
+2024-04-30 16:35:20 Home Consumption is:  15688.373
+2024-04-30 16:35:20 PV Production is:  2550.46
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29022.118  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.389  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.552  for date:  2024-04-30
+TotalAC2Grid is:  17810.552
+2024-04-30 16:36:14 status is off, tue nichts
+TotalAC2Grid is:  17810.552
+2024-04-30 16:36:20 state hp recommendation:  None
+2024-04-30 16:36:20 Home Consumption is:  15688.389
+2024-04-30 16:36:20 PV Production is:  2523.07
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29022.118  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.389  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.552  for date:  2024-04-30
+TotalAC2Grid is:  17810.552
+2024-04-30 16:37:14 status is off, tue nichts
+TotalAC2Grid is:  17810.552
+2024-04-30 16:37:20 state hp recommendation:  None
+2024-04-30 16:37:20 Home Consumption is:  15688.389
+2024-04-30 16:37:20 PV Production is:  2499.3
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29022.118  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.389  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.552  for date:  2024-04-30
+TotalAC2Grid is:  17810.552
+2024-04-30 16:38:14 status is off, tue nichts
+TotalAC2Grid is:  17810.552
+2024-04-30 16:38:20 state hp recommendation:  None
+2024-04-30 16:38:20 Home Consumption is:  15688.389
+2024-04-30 16:38:20 PV Production is:  2490.56
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29022.118  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.389  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.552  for date:  2024-04-30
+TotalAC2Grid is:  17810.552
+2024-04-30 16:39:14 status is off, tue nichts
+TotalAC2Grid is:  17810.552
+2024-04-30 16:39:20 state hp recommendation:  None
+2024-04-30 16:39:20 Home Consumption is:  15688.389
+2024-04-30 16:39:20 PV Production is:  2466.09
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29022.118  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.389  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.552  for date:  2024-04-30
+TotalAC2Grid is:  17810.552
+2024-04-30 16:40:15 status is off, tue nichts
+TotalAC2Grid is:  17810.552
+2024-04-30 16:40:21 state hp recommendation:  None
+2024-04-30 16:40:21 Home Consumption is:  15688.389
+2024-04-30 16:40:21 PV Production is:  2493.18
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29022.316  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.405  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.734  for date:  2024-04-30
+TotalAC2Grid is:  17810.734
+2024-04-30 16:41:15 status is off, tue nichts
+TotalAC2Grid is:  17810.734
+2024-04-30 16:41:20 state hp recommendation:  None
+2024-04-30 16:41:20 Home Consumption is:  15688.405
+2024-04-30 16:41:20 PV Production is:  2484.79
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29022.316  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.405  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.734  for date:  2024-04-30
+TotalAC2Grid is:  17810.734
+2024-04-30 16:42:14 status is off, tue nichts
+TotalAC2Grid is:  17810.734
+2024-04-30 16:42:20 state hp recommendation:  None
+2024-04-30 16:42:20 Home Consumption is:  15688.405
+2024-04-30 16:42:20 PV Production is:  2463.17
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29022.316  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.405  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.734  for date:  2024-04-30
+TotalAC2Grid is:  17810.734
+2024-04-30 16:43:15 status is off, tue nichts
+TotalAC2Grid is:  17810.734
+2024-04-30 16:43:20 state hp recommendation:  None
+2024-04-30 16:43:20 Home Consumption is:  15688.405
+2024-04-30 16:43:20 PV Production is:  2467.18
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29022.316  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.405  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.734  for date:  2024-04-30
+TotalAC2Grid is:  17810.734
+2024-04-30 16:44:14 status is off, tue nichts
+TotalAC2Grid is:  17810.734
+2024-04-30 16:44:20 state hp recommendation:  None
+2024-04-30 16:44:20 Home Consumption is:  15688.405
+2024-04-30 16:44:20 PV Production is:  2455.71
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29022.316  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.405  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.734  for date:  2024-04-30
+TotalAC2Grid is:  17810.734
+2024-04-30 16:45:15 status is off, tue nichts
+TotalAC2Grid is:  17810.734
+2024-04-30 16:45:21 state hp recommendation:  None
+2024-04-30 16:45:21 Home Consumption is:  15688.405
+2024-04-30 16:45:21 PV Production is:  2450.01
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29022.474  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.419  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.878  for date:  2024-04-30
+TotalAC2Grid is:  17810.878
+2024-04-30 16:47:54 status is off, tue nichts
+TotalAC2Grid is:  17810.878
+2024-04-30 16:48:01 state hp recommendation:  None
+2024-04-30 16:48:01 Home Consumption is:  15688.419
+2024-04-30 16:48:01 PV Production is:  2437.05
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29022.474  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.419  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.878  for date:  2024-04-30
+TotalAC2Grid is:  17810.878
+2024-04-30 16:47:54 status is off, tue nichts
+TotalAC2Grid is:  17810.878
+2024-04-30 16:48:01 state hp recommendation:  None
+2024-04-30 16:48:01 Home Consumption is:  15688.419
+2024-04-30 16:48:01 PV Production is:  2437.05
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29022.474  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.419  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.878  for date:  2024-04-30
+TotalAC2Grid is:  17810.878
+2024-04-30 16:48:20 status is off, tue nichts
+TotalAC2Grid is:  17810.878
+2024-04-30 16:48:26 state hp recommendation:  None
+2024-04-30 16:48:26 Home Consumption is:  15688.419
+2024-04-30 16:48:26 PV Production is:  2402.54
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29022.474  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.419  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17810.878  for date:  2024-04-30
+TotalAC2Grid is:  17810.878
+2024-04-30 16:49:16 status is off, tue nichts
+TotalAC2Grid is:  17810.878
+2024-04-30 16:49:21 state hp recommendation:  None
+2024-04-30 16:49:21 Home Consumption is:  15688.419
+2024-04-30 16:49:21 PV Production is:  2395.61
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}

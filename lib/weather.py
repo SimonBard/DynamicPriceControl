@@ -22,7 +22,7 @@ class Weather:
         #self._market_area = market_area
         self._url = self.URL.format()
         self._temperaturedata = []
-        print(self._url)
+        #print(self._url)
         
 
     # fetch data from awattar website:

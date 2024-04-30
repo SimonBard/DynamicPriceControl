@@ -1,10 +1,10 @@
-paho-mqtt
+paho-mqtt<2.0.0
 requests
 numpy
 python-dotenv
 forecast_solar
 psycopg2-binary
-pymodbus
+pymodbus==3.4.1
 pyTibber
 solcast
 pandas

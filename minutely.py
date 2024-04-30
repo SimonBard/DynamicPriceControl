@@ -13,9 +13,9 @@ import os
 
 def main():
 
-    stats()
-    battery_charge_switch()
-    wp()
+    # stats()
+    # battery_charge_switch()
+    # wp()
 
 
 def battery():
@@ -133,7 +133,7 @@ def battery_charge_switch():
             else: 
                 print(timestamp, "Netzeinspeisung, deshalb Steurung aufgeben, damit Akku von PV laden kann")
     else:
-        print(timestamp, "status is off, tue nichts")
+        print(timestamp, "Accu charge switch is off, do nothing")
 
 def stats():
     mybattery = lib.battery.kostal_modbusquery()

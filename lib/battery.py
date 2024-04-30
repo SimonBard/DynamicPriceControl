@@ -123,7 +123,7 @@
 
 
 
-import lib.mymqtt
+#import lib.mymqtt
 from datetime import datetime, timedelta
 import pymodbus
 from pymodbus.client.tcp import ModbusTcpClient
@@ -135,15 +135,18 @@ import time
 import collections
 import argparse
 import sched, time
-import lib.manager
+#import lib.manager
+import os
+from dotenv import load_dotenv
 
 
 class kostal_modbusquery:
     def __init__(self):
         #Change the IP address and port to suite your environment:
-        self.inverter_ip="192.168.178.7"
+        load_dotenv()
+        self.broker = os.getenv('INVERTER_IP')
         self.inverter_port="1502"
-        self.client = ModbusTcpClient(self.inverter_ip,
+        self.client = ModbusTcpClient(self.broker,
                                           port=self.inverter_port)
         #No more changes required beyond this point
         self.KostalRegister = []
@@ -391,6 +394,7 @@ class kostal_modbusquery:
         try:
             
             self.client.connect()
+            print("connected to inverter")
 
             for key in self.Adr:
                 dtype = self.Adr[key][2]
@@ -421,8 +425,6 @@ class kostal_modbusquery:
 
             if self.Adr[575][3] > 32766: #Sometimes we hit the max value of 32767 - which implies a zero value
                 self.Adr[575][3] = 0
-
-
 
         except Exception as ex:
             print ("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")

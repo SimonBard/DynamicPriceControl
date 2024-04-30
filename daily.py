@@ -34,7 +34,7 @@ def process_tibber():
         dbmanager.write_element_to_hourly_values(date = key[0:10],hour = key[11:13], column="tibber_brutto",  data =home._price_info[key] )
     
 
-def process_pv_solast():
+def process_pv_solcast():
     mymanager = lib.manager.Manager()
     inst = lib.pv_solcast.Solcast()
     forecast = inst.process_json()
@@ -146,9 +146,9 @@ def main():
     print('Run daily routine')
     process_temperature_forecast()
     process_tibber()
-    process_pv_solast()
     process_recommendations()
     process_forecast_solar()
+    process_pv_solcast()
     process_stats()
 
 if __name__ == "__main__":
