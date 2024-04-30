@@ -9125,3 +9125,63 @@ TotalAC2Grid is:  17809.094
 2024-04-30 16:01:21 Home Consumption is:  15688.264
 2024-04-30 16:01:21 PV Production is:  2894.2
 connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29020.534  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.264  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17809.094  for date:  2024-04-30
+TotalAC2Grid is:  17809.094
+2024-04-30 16:02:14 status is off, tue nichts
+TotalAC2Grid is:  17809.094
+2024-04-30 16:02:20 state hp recommendation:  None
+2024-04-30 16:02:20 Home Consumption is:  15688.264
+2024-04-30 16:02:20 PV Production is:  2955.11
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29020.534  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.264  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17809.094  for date:  2024-04-30
+TotalAC2Grid is:  17809.094
+2024-04-30 16:03:14 status is off, tue nichts
+TotalAC2Grid is:  17809.094
+2024-04-30 16:03:20 state hp recommendation:  None
+2024-04-30 16:03:20 Home Consumption is:  15688.264
+2024-04-30 16:03:20 PV Production is:  2992.2
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29020.534  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.264  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17809.094  for date:  2024-04-30
+TotalAC2Grid is:  17809.094
+2024-04-30 16:04:14 status is off, tue nichts
+TotalAC2Grid is:  17809.094
+2024-04-30 16:04:20 state hp recommendation:  None
+2024-04-30 16:04:20 Home Consumption is:  15688.264
+2024-04-30 16:04:20 PV Production is:  3035.34
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29020.534  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.264  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17809.094  for date:  2024-04-30
+TotalAC2Grid is:  17809.094
+2024-04-30 16:05:15 status is off, tue nichts
+TotalAC2Grid is:  17809.094
+2024-04-30 16:05:21 state hp recommendation:  None
+2024-04-30 16:05:21 Home Consumption is:  15688.264
+2024-04-30 16:05:21 PV Production is:  2955.8
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29020.774  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.28  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17809.316  for date:  2024-04-30
+TotalAC2Grid is:  17809.316
+2024-04-30 16:06:14 status is off, tue nichts
+TotalAC2Grid is:  17809.316
+2024-04-30 16:06:20 state hp recommendation:  None
+2024-04-30 16:06:20 Home Consumption is:  15688.28
+2024-04-30 16:06:20 PV Production is:  2958.35
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29020.774  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.28  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17809.316  for date:  2024-04-30
+TotalAC2Grid is:  17809.316
+2024-04-30 16:07:14 status is off, tue nichts
+TotalAC2Grid is:  17809.316
+2024-04-30 16:07:20 state hp recommendation:  None
+2024-04-30 16:07:20 Home Consumption is:  15688.28
+2024-04-30 16:07:20 PV Production is:  2993.79
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}

@@ -5,7 +5,7 @@ python-dotenv
 forecast_solar
 psycopg2-binary
 pymodbus
-tibber
+pyTibber
 solcast
 pandas
 typing_extensions
