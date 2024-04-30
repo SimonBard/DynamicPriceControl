@@ -12,8 +12,9 @@ import pandas as pd
 class Solcast:
 
   def __init__(self):
-    pass
-    self._url = "https://api.solcast.com.au/rooftop_sites/58e3-83a6-5270-154b/forecasts?format=json&PT60M&api_key=BmCHph8r9FrV15QhowN1NjDfmFxOwDeS"
+    solcast_api_key = os.getenv('SOLCAST_API_KEY')
+    rooftop = os.getenv('ROOFTOP')
+    self._url = f"https://api.solcast.com.au/rooftop_sites/{rooftop}/forecasts?format=json&PT60M&api_key={solcast_api_key}"
     
 
   def retrieveSolcastData(self):  

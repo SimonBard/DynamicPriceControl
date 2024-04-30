@@ -7700,3 +7700,263 @@ TotalAC2Grid is:  17798.79
 2024-04-30 13:03:14 status is off, tue nichts
 TotalAC2Grid is:  17798.79
 filename:  /intenso/docker/volumes/postgre/python/database.ini
+write to table demand in column pv_totalyield value:  29009.4  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.433  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17798.79
+2024-04-30 13:04:17 status is off, tue nichts
+TotalAC2Grid is:  17798.79
+2024-04-30 13:04:22 state hp recommendation:  None
+2024-04-30 13:04:22 Home Consumption is:  15687.433
+2024-04-30 13:04:22 PV Production is:  4486.17
+write to table demand in column pv_totalyield value:  29009.4  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.433  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17798.79
+2024-04-30 13:05:16 status is off, tue nichts
+TotalAC2Grid is:  17798.79
+2024-04-30 13:05:21 state hp recommendation:  None
+2024-04-30 13:05:21 Home Consumption is:  15687.433
+2024-04-30 13:05:21 PV Production is:  4493.92
+write to table demand in column pv_totalyield value:  29009.758  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.476  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17799.104
+2024-04-30 13:06:15 status is off, tue nichts
+TotalAC2Grid is:  17799.104
+2024-04-30 13:06:20 state hp recommendation:  None
+2024-04-30 13:06:20 Home Consumption is:  15687.476
+2024-04-30 13:06:20 PV Production is:  4487.12
+write to table demand in column pv_totalyield value:  29009.758  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.476  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17799.104
+2024-04-30 13:07:14 status is off, tue nichts
+TotalAC2Grid is:  17799.104
+2024-04-30 13:07:20 state hp recommendation:  None
+2024-04-30 13:07:20 Home Consumption is:  15687.476
+2024-04-30 13:07:20 PV Production is:  4483.94
+write to table demand in column pv_totalyield value:  29009.758  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.476  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17799.104
+2024-04-30 13:08:15 status is off, tue nichts
+TotalAC2Grid is:  17799.104
+2024-04-30 13:08:21 state hp recommendation:  None
+2024-04-30 13:08:21 Home Consumption is:  15687.476
+2024-04-30 13:08:21 PV Production is:  4467.42
+write to table demand in column pv_totalyield value:  29009.758  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.476  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17799.104
+2024-04-30 13:09:14 status is off, tue nichts
+TotalAC2Grid is:  17799.104
+2024-04-30 13:09:20 state hp recommendation:  None
+2024-04-30 13:09:20 Home Consumption is:  15687.476
+2024-04-30 13:09:20 PV Production is:  4480.82
+write to table demand in column pv_totalyield value:  29009.758  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.476  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17799.104
+2024-04-30 13:10:15 status is off, tue nichts
+TotalAC2Grid is:  17799.104
+2024-04-30 13:10:21 state hp recommendation:  None
+2024-04-30 13:10:21 Home Consumption is:  15687.476
+2024-04-30 13:10:21 PV Production is:  4486.36
+write to table demand in column pv_totalyield value:  29010.118  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.496  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17799.446
+2024-04-30 13:11:14 status is off, tue nichts
+TotalAC2Grid is:  17799.446
+2024-04-30 13:11:20 state hp recommendation:  None
+2024-04-30 13:11:20 Home Consumption is:  15687.496
+2024-04-30 13:11:20 PV Production is:  4492.05
+write to table demand in column pv_totalyield value:  29010.118  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.496  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17799.446
+2024-04-30 13:12:15 status is off, tue nichts
+TotalAC2Grid is:  17799.446
+2024-04-30 13:12:21 state hp recommendation:  None
+2024-04-30 13:12:21 Home Consumption is:  15687.496
+2024-04-30 13:12:21 PV Production is:  4485.75
+write to table demand in column pv_totalyield value:  29010.118  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.496  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17799.446
+2024-04-30 13:13:14 status is off, tue nichts
+TotalAC2Grid is:  17799.446
+2024-04-30 13:13:20 state hp recommendation:  None
+2024-04-30 13:13:20 Home Consumption is:  15687.496
+2024-04-30 13:13:20 PV Production is:  4509.83
+write to table demand in column pv_totalyield value:  29010.118  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.496  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17799.446
+2024-04-30 13:14:15 status is off, tue nichts
+TotalAC2Grid is:  17799.446
+2024-04-30 13:14:21 state hp recommendation:  None
+2024-04-30 13:14:21 Home Consumption is:  15687.496
+2024-04-30 13:14:21 PV Production is:  4519.44
+write to table demand in column pv_totalyield value:  29010.118  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.496  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17799.446
+2024-04-30 13:15:15 status is off, tue nichts
+TotalAC2Grid is:  17799.446
+2024-04-30 13:15:21 state hp recommendation:  None
+2024-04-30 13:15:21 Home Consumption is:  15687.496
+2024-04-30 13:15:21 PV Production is:  4523.96
+write to table demand in column pv_totalyield value:  29010.478  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.545  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17799.754
+2024-04-30 13:16:14 status is off, tue nichts
+TotalAC2Grid is:  17799.754
+2024-04-30 13:16:20 state hp recommendation:  None
+2024-04-30 13:16:20 Home Consumption is:  15687.545
+2024-04-30 13:16:20 PV Production is:  4516.15
+write to table demand in column pv_totalyield value:  29010.478  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.545  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17799.754
+2024-04-30 13:17:15 status is off, tue nichts
+TotalAC2Grid is:  17799.754
+2024-04-30 13:17:20 state hp recommendation:  None
+2024-04-30 13:17:20 Home Consumption is:  15687.545
+2024-04-30 13:17:20 PV Production is:  4512.32
+write to table demand in column pv_totalyield value:  29010.478  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.545  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17799.754
+2024-04-30 13:18:14 status is off, tue nichts
+TotalAC2Grid is:  17799.754
+2024-04-30 13:18:20 state hp recommendation:  None
+2024-04-30 13:18:20 Home Consumption is:  15687.545
+2024-04-30 13:18:20 PV Production is:  4483.09
+write to table demand in column pv_totalyield value:  29010.478  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.545  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17799.754
+2024-04-30 13:19:14 status is off, tue nichts
+TotalAC2Grid is:  17799.754
+2024-04-30 13:19:20 state hp recommendation:  None
+2024-04-30 13:19:20 Home Consumption is:  15687.545
+2024-04-30 13:19:20 PV Production is:  4482.84
+write to table demand in column pv_totalyield value:  29010.478  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.545  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17799.754
+2024-04-30 13:20:16 status is off, tue nichts
+TotalAC2Grid is:  17799.754
+2024-04-30 13:20:21 state hp recommendation:  None
+2024-04-30 13:20:21 Home Consumption is:  15687.545
+2024-04-30 13:20:21 PV Production is:  4351.32
+write to table demand in column pv_totalyield value:  29010.838  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.545  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17800.096
+2024-04-30 13:21:14 status is off, tue nichts
+TotalAC2Grid is:  17800.096
+2024-04-30 13:21:20 state hp recommendation:  None
+2024-04-30 13:21:20 Home Consumption is:  15687.565
+2024-04-30 13:21:20 PV Production is:  4357.04
+write to table demand in column pv_totalyield value:  29010.838  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.565  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17800.096
+2024-04-30 13:22:15 status is off, tue nichts
+TotalAC2Grid is:  17800.096
+2024-04-30 13:22:21 state hp recommendation:  None
+2024-04-30 13:22:21 Home Consumption is:  15687.565
+2024-04-30 13:22:21 PV Production is:  4361.72
+write to table demand in column pv_totalyield value:  29010.838  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.565  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17800.096
+2024-04-30 13:23:15 status is off, tue nichts
+TotalAC2Grid is:  17800.096
+2024-04-30 13:23:20 state hp recommendation:  None
+2024-04-30 13:23:20 Home Consumption is:  15687.565
+2024-04-30 13:23:20 PV Production is:  4419.77
