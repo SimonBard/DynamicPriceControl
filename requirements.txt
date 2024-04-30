@@ -3,5 +3,5 @@ requests
 numpy
 python-dotenv
 forecast_solar
-psycopg2
+psycopg2-binary
 
