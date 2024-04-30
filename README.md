@@ -47,7 +47,7 @@ Also adapt the database.ini file with that password.
 
 2.  Install requirements
 ```
-python -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 3. Init the database with
 ```
