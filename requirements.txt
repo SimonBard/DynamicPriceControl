@@ -9,4 +9,4 @@ pyTibber
 solcast
 pandas
 typing_extensions
-
+beautifulsoup4

@@ -143,13 +143,13 @@ def process_forecast_solar():
     SManager.write_demand(tomorrow, "forecast_solar", inst.forecast_tomorrow())
 
 def main():
-    # print('Run daily routine')
-    # process_temperature_forecast()
+    print('Run daily routine')
+    process_temperature_forecast()
     process_tibber()
-    # process_pv_solast()
-    # process_recommendations()
-    # process_forecast_solar()
-    # process_stats()
+    process_pv_solast()
+    process_recommendations()
+    process_forecast_solar()
+    process_stats()
 
 if __name__ == "__main__":
     main()
