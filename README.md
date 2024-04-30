@@ -1,14 +1,14 @@
-## DynamicElectricityPriceControl
+# DynamicElectricityPriceControl
 
 The script is very basic right now, but will be more advanced in the future. 
 Its a beta phase, the code is not very beautiful and not following basic coding conventions, but will be corrected. 
 
-# Sponsoring
+## Sponsoring
 If you would like to support me, you can use my code to register for tibber: 
 You will get 50€ for their store and at least right now in Germany, you get also 30€ discount for an ADAC membership (I can provide a ADAC number if you do not have one). 
 You can also just make a new contract with tibber to get the voucher of 50€. 
 
-# How it works
+## How it works
 To make it simple: 
 - The battery can be charged if the price difference during the day exceeds 5 ct/kWh
 - You can manually charge the battery if you like
@@ -19,7 +19,7 @@ To make it simple:
 Why is this useful?
 Usually the heatpump uses a heat curve, so it adapts the water temperature to the outside temperature. The problem is: Especially in spring when you have some PV power, the heatpump will run much as the outside temperature is high. So you will use only a small fraction of the self-generated power. At night, temperatures decreases but you have not excess PV power. 
 
-# What you need
+## What you need
 - heishamon as an addon to the Panasonic heatpump to control the heatpump via MQTT
 - PV inverter from KOSTAL
 - an MQTT broker (with heishamon connected to it)
@@ -29,7 +29,7 @@ optional:
 - telegram to get status messages
 - homeassistant installed
 
-# Setup and Configuration
+## Setup and Configuration
 
 Download the files to a directory of your choice:
 
@@ -80,7 +80,7 @@ This should not invoke any error
 ```
 I just mention the full path here to have a better example, adapt the path to your filesystem.
 
-# Feedback
+## Feedback
 If you had difficulties with the docu, readme or you have any suggestions, open a discussion here on github. 
 
 I am open to develop more integrations for other inverter, heatpumps etc. To do so, I will need access to your local network for a limited time to make the tests. If you are open to it, just open an issue to get in contact with me. Please provide info about your setup. 
