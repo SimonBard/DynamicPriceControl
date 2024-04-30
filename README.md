@@ -45,14 +45,13 @@ docker run -d --name postgres-heatpump -e POSTGRES_PASSWORD=secret123$% -e PGDAT
 
 Also adapt the database.ini file with that password.
 
-2.  Init the database with
-```
-python3 setup.py
-```
-
-3. Install requirements
+2.  Install requirements
 ```
 python -m pip install -r requirements.txt
+```
+3. Init the database with
+```
+python3 setup.py
 ```
 
 4. Adapt the .env file. Put in your data in the .env.example file and delete the ending .example. The file name should be .env
