@@ -5,7 +5,7 @@ from lib.config import config
 
 class Manager:
     def __init__(self):
-        load_dotenv()
+        
         self.topic = ""
         self.message = ""
 
