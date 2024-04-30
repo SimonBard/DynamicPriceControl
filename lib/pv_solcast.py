@@ -29,10 +29,9 @@ class Solcast:
     return data_json
   
   def process_json(self):
-    try:
-      json = self.retrieveSolcastData()
-    except Exception as e:
-      print(e)
+    
+    json = self.retrieveSolcastData()
+    if json is None:
       return None
     df = pd.DataFrame.from_dict(json['forecasts'], orient='columns')
     df['period_end'] = pd.to_datetime(df['period_end'], format='ISO8601')

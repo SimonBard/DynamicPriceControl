@@ -24,12 +24,10 @@ class Weather:
         self._temperaturedata = []
         #print(self._url)
         
-
     # fetch data from awattar website:
     def _fetch_data(self, url):
-        print(url)
-        response = urllib.request.urlopen(url)
-        data = json.loads(response.read())
+        with urllib.request.urlopen(url) as response:
+            data = json.loads(response.read())
         return data
             
     def fetch(self):
