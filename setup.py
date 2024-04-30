@@ -5,6 +5,7 @@ import lib.manager
 def setup()-> None:
     
     dbmanager = lib.manager.Manager()
+    dbmanager.drop_tables
     dbmanager.create_tables()
     
 def main():

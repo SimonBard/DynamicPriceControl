@@ -59,11 +59,11 @@ python3 setup.py
 
 5. Add the following helpers in homeassistant if available: 
 simon_battery_control (as switch)
-Speicher_sofort_laden (as switch)
-speicher_minsoc_attempt (as number)
-simon_wp_control (as switch)
-Set_zone1.heat.target.low (as number)
-Set_zone1.heat.target.high (as number)
+- Speicher_sofort_laden (as switch)
+- speicher_minsoc_attempt (as number)
+- simon_wp_control (as switch)
+- Set_zone1.heat.target.low (as number)
+- Set_zone1.heat.target.high (as number)
 
 If you do not use homeassistant, the script will use some default values. 
 

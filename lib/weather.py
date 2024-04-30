@@ -8,17 +8,18 @@ from typing import Any, Protocol
 from typing_extensions import Final, Literal, TypeAlias, final
 import os
 from dotenv import load_dotenv
-
+import validators
 
 
 class Weather:
 
     def __init__(self):
         load_dotenv()
-        self.LONG = os.getenv('WEATHER_LONG') 
+        self.LONG = os.getenv('WEATHER_LONG')
         self.LAT = os.getenv('WEATHER_LAT') 
         self.URL = f"https://api.open-meteo.com/v1/forecast?latitude={self.LAT}&longitude={self.LONG}&hourly=temperature_2m"
-
+        if not validators.url(self.URL):
+            print("You did not provide valid data for the weather api")
         #self._market_area = market_area
         self._url = self.URL.format()
         self._temperaturedata = []

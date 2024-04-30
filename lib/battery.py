@@ -394,7 +394,7 @@ class kostal_modbusquery:
         try:
             
             self.client.connect()
-            print("connected to inverter")
+            #print("connected to inverter")
 
             for key in self.Adr:
                 dtype = self.Adr[key][2]

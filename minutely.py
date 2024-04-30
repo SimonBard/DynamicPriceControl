@@ -79,6 +79,8 @@ def wp():
         print(timestamp,'Home Consumption is: ', mybattery.getTotalHomeConsumption())
         print(timestamp,'PV Production is: ', mybattery.getPVProduction())
         
+        dbmanager.write_counter(dbmanager.getcounter()-1)
+        print("counter is: ", dbmanager.getcounter())
         if int(dbmanager.getcounter()) > 0:
             myheatpump.send_adapted_heating_curve(delta=10)
         else:

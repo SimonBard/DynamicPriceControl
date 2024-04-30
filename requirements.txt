@@ -10,3 +10,4 @@ solcast
 pandas
 typing_extensions
 beautifulsoup4
+validators
