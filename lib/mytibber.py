@@ -14,7 +14,7 @@ class Tibber:
   load_dotenv()
   ACCESS_TOKEN = os.getenv('TIBBER_ACCESS_TOKEN')
 
-  tibber_connection = tibber.Tibber(ACCESS_TOKEN)
+  tibber_connection = tibber.Tibber(ACCESS_TOKEN, user_agent="change_this")
 
   async def _home_data(self):
     home = self.tibber_connection.get_homes()[0]

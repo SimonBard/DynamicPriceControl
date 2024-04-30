@@ -334,7 +334,7 @@ class Manager:
         # make dict
         row_dict = {}
         for i, col in enumerate(columns):
-            # print (i, col, row[0][i])
+            print (i, col, row[0][i])
             row_dict[col.name] = row[0][i]
 
         return row_dict

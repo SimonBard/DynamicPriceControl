@@ -14,6 +14,7 @@ from dotenv import load_dotenv
 class Weather:
 
     def __init__(self):
+        load_dotenv()
         self.LONG = os.getenv('WEATHER_LONG') 
         self.LAT = os.getenv('WEATHER_LAT') 
         self.URL = f"https://api.open-meteo.com/v1/forecast?latitude={self.LAT}&longitude={self.LONG}&hourly=temperature_2m"
@@ -26,6 +27,7 @@ class Weather:
 
     # fetch data from awattar website:
     def _fetch_data(self, url):
+        print(url)
         response = urllib.request.urlopen(url)
         data = json.loads(response.read())
         return data

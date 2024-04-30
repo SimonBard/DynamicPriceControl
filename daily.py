@@ -114,7 +114,7 @@ def process_stats():
             print(e)
 
 
-    timerange = -2
+    timerange = -1
     # timerange should usually be only -1, because its not efficient to retrieve lots of data this way
     for td in range (timerange,0):
         day = (datetime.now() + timedelta(td)).strftime('%Y-%m-%d')

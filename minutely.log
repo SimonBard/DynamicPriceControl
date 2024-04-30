@@ -7960,3 +7960,978 @@ TotalAC2Grid is:  17800.096
 2024-04-30 13:23:20 state hp recommendation:  None
 2024-04-30 13:23:20 Home Consumption is:  15687.565
 2024-04-30 13:23:20 PV Production is:  4419.77
+write to table demand in column pv_totalyield value:  29010.838  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.565  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17800.096
+2024-04-30 13:24:14 status is off, tue nichts
+TotalAC2Grid is:  17800.096
+2024-04-30 13:24:20 state hp recommendation:  None
+2024-04-30 13:24:20 Home Consumption is:  15687.565
+2024-04-30 13:24:20 PV Production is:  4466.89
+write to table demand in column pv_totalyield value:  29010.838  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.565  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17800.408
+2024-04-30 13:25:16 status is off, tue nichts
+TotalAC2Grid is:  17800.408
+2024-04-30 13:25:22 state hp recommendation:  None
+2024-04-30 13:25:22 Home Consumption is:  15687.606
+2024-04-30 13:25:22 PV Production is:  4491.2
+write to table demand in column pv_totalyield value:  29011.19  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.606  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17800.408
+2024-04-30 13:26:14 status is off, tue nichts
+TotalAC2Grid is:  17800.408
+2024-04-30 13:26:20 state hp recommendation:  None
+2024-04-30 13:26:20 Home Consumption is:  15687.606
+2024-04-30 13:26:20 PV Production is:  4506.27
+write to table demand in column pv_totalyield value:  29011.19  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.606  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17800.408
+2024-04-30 13:27:15 status is off, tue nichts
+TotalAC2Grid is:  17800.408
+2024-04-30 13:27:21 state hp recommendation:  None
+2024-04-30 13:27:21 Home Consumption is:  15687.606
+2024-04-30 13:27:21 PV Production is:  4478.54
+write to table demand in column pv_totalyield value:  29011.19  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.606  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17800.408
+2024-04-30 13:28:14 status is off, tue nichts
+TotalAC2Grid is:  17800.408
+2024-04-30 13:28:20 state hp recommendation:  None
+2024-04-30 13:28:20 Home Consumption is:  15687.606
+2024-04-30 13:28:20 PV Production is:  4469.82
+write to table demand in column pv_totalyield value:  29011.19  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.606  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17800.408
+2024-04-30 13:29:14 status is off, tue nichts
+TotalAC2Grid is:  17800.408
+2024-04-30 13:29:21 state hp recommendation:  None
+2024-04-30 13:29:21 Home Consumption is:  15687.606
+2024-04-30 13:29:21 PV Production is:  4481.3
+write to table demand in column pv_totalyield value:  29011.19  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.606  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17800.408
+2024-04-30 13:30:15 status is off, tue nichts
+TotalAC2Grid is:  17800.408
+2024-04-30 13:30:21 state hp recommendation:  None
+2024-04-30 13:30:21 Home Consumption is:  15687.606
+2024-04-30 13:30:21 PV Production is:  4433.81
+write to table demand in column pv_totalyield value:  29011.55  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.626  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17800.748
+2024-04-30 13:31:14 status is off, tue nichts
+TotalAC2Grid is:  17800.748
+2024-04-30 13:31:20 state hp recommendation:  None
+2024-04-30 13:31:20 Home Consumption is:  15687.626
+2024-04-30 13:31:20 PV Production is:  4434.84
+write to table demand in column pv_totalyield value:  29011.55  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.626  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17800.748
+2024-04-30 13:32:14 status is off, tue nichts
+TotalAC2Grid is:  17800.748
+2024-04-30 13:32:20 state hp recommendation:  None
+2024-04-30 13:32:20 Home Consumption is:  15687.626
+2024-04-30 13:32:20 PV Production is:  4439.91
+write to table demand in column pv_totalyield value:  29011.55  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.626  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17800.748
+2024-04-30 13:33:14 status is off, tue nichts
+TotalAC2Grid is:  17800.748
+2024-04-30 13:33:20 state hp recommendation:  None
+2024-04-30 13:33:20 Home Consumption is:  15687.626
+2024-04-30 13:33:20 PV Production is:  4429.2
+write to table demand in column pv_totalyield value:  29011.55  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.626  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17800.748
+2024-04-30 13:34:14 status is off, tue nichts
+TotalAC2Grid is:  17800.748
+2024-04-30 13:34:20 state hp recommendation:  None
+2024-04-30 13:34:20 Home Consumption is:  15687.626
+2024-04-30 13:34:20 PV Production is:  4444.53
+write to table demand in column pv_totalyield value:  29011.55  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.626  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17800.748
+2024-04-30 13:35:15 status is off, tue nichts
+TotalAC2Grid is:  17800.748
+2024-04-30 13:35:20 state hp recommendation:  None
+2024-04-30 13:35:20 Home Consumption is:  15687.626
+2024-04-30 13:35:20 PV Production is:  4449.58
+write to table demand in column pv_totalyield value:  29011.906  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.652  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17801.078
+2024-04-30 13:36:14 status is off, tue nichts
+TotalAC2Grid is:  17801.078
+2024-04-30 13:36:20 state hp recommendation:  None
+2024-04-30 13:36:20 Home Consumption is:  15687.652
+2024-04-30 13:36:20 PV Production is:  4401.52
+write to table demand in column pv_totalyield value:  29011.906  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.652  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17801.078
+2024-04-30 13:37:15 status is off, tue nichts
+TotalAC2Grid is:  17801.078
+2024-04-30 13:37:20 state hp recommendation:  None
+2024-04-30 13:37:20 Home Consumption is:  15687.652
+2024-04-30 13:37:20 PV Production is:  4372.24
+write to table demand in column pv_totalyield value:  29011.906  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.652  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17801.078
+2024-04-30 13:38:14 status is off, tue nichts
+TotalAC2Grid is:  17801.078
+2024-04-30 13:38:20 state hp recommendation:  None
+2024-04-30 13:38:20 Home Consumption is:  15687.652
+2024-04-30 13:38:20 PV Production is:  4356.54
+write to table demand in column pv_totalyield value:  29011.906  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.652  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17801.078
+2024-04-30 13:39:15 status is off, tue nichts
+TotalAC2Grid is:  17801.078
+2024-04-30 13:39:20 state hp recommendation:  None
+2024-04-30 13:39:20 Home Consumption is:  15687.652
+2024-04-30 13:39:20 PV Production is:  4408.95
+write to table demand in column pv_totalyield value:  29011.906  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.652  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17801.078
+2024-04-30 13:40:14 status is off, tue nichts
+TotalAC2Grid is:  17801.078
+2024-04-30 13:40:20 state hp recommendation:  None
+2024-04-30 13:40:20 Home Consumption is:  15687.652
+2024-04-30 13:40:20 PV Production is:  4402.21
+write to table demand in column pv_totalyield value:  29012.258  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.681  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17801.398
+2024-04-30 13:41:14 status is off, tue nichts
+TotalAC2Grid is:  17801.398
+2024-04-30 13:41:20 state hp recommendation:  None
+2024-04-30 13:41:20 Home Consumption is:  15687.681
+2024-04-30 13:41:20 PV Production is:  4384.62
+write to table demand in column pv_totalyield value:  29012.258  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.681  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17801.398
+2024-04-30 13:42:14 status is off, tue nichts
+TotalAC2Grid is:  17801.398
+2024-04-30 13:42:20 state hp recommendation:  None
+2024-04-30 13:42:20 Home Consumption is:  15687.681
+2024-04-30 13:42:20 PV Production is:  4365.35
+write to table demand in column pv_totalyield value:  29012.258  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.681  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17801.398
+2024-04-30 13:43:15 status is off, tue nichts
+TotalAC2Grid is:  17801.398
+2024-04-30 13:43:21 state hp recommendation:  None
+2024-04-30 13:43:21 Home Consumption is:  15687.681
+2024-04-30 13:43:21 PV Production is:  4295.92
+write to table demand in column pv_totalyield value:  29012.258  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.681  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17801.398
+2024-04-30 13:44:15 status is off, tue nichts
+TotalAC2Grid is:  17801.398
+2024-04-30 13:44:21 state hp recommendation:  None
+2024-04-30 13:44:21 Home Consumption is:  15687.681
+2024-04-30 13:44:21 PV Production is:  4309.81
+write to table demand in column pv_totalyield value:  29012.258  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.681  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17801.398
+2024-04-30 13:45:15 status is off, tue nichts
+TotalAC2Grid is:  17801.398
+2024-04-30 13:45:21 state hp recommendation:  None
+2024-04-30 13:45:21 Home Consumption is:  15687.681
+2024-04-30 13:45:21 PV Production is:  4326.39
+write to table demand in column pv_totalyield value:  29012.606  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.701  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17801.728
+2024-04-30 13:46:14 status is off, tue nichts
+TotalAC2Grid is:  17801.728
+2024-04-30 13:46:20 state hp recommendation:  None
+2024-04-30 13:46:20 Home Consumption is:  15687.701
+2024-04-30 13:46:20 PV Production is:  4322.54
+write to table demand in column pv_totalyield value:  29012.606  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.701  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17801.728
+2024-04-30 13:47:15 status is off, tue nichts
+TotalAC2Grid is:  17801.728
+2024-04-30 13:47:20 state hp recommendation:  None
+2024-04-30 13:47:20 Home Consumption is:  15687.701
+2024-04-30 13:47:20 PV Production is:  4358.63
+write to table demand in column pv_totalyield value:  29012.606  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.701  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17801.728
+2024-04-30 13:48:15 status is off, tue nichts
+TotalAC2Grid is:  17801.728
+2024-04-30 13:48:20 state hp recommendation:  True
+2024-04-30 13:48:20 Home Consumption is:  15687.701
+2024-04-30 13:48:20 PV Production is:  4357.08
+write to table demand in column pv_totalyield value:  29012.606  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.701  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17801.728
+2024-04-30 13:49:14 status is off, tue nichts
+TotalAC2Grid is:  17801.728
+2024-04-30 13:49:20 state hp recommendation:  True
+2024-04-30 13:49:20 Home Consumption is:  15687.701
+2024-04-30 13:49:20 PV Production is:  4361.93
+write to table demand in column pv_totalyield value:  29012.606  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.701  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17801.728
+2024-04-30 13:50:14 status is off, tue nichts
+TotalAC2Grid is:  17801.728
+2024-04-30 13:50:20 state hp recommendation:  True
+2024-04-30 13:50:20 Home Consumption is:  15687.701
+2024-04-30 13:50:20 PV Production is:  4362.95
+write to table demand in column pv_totalyield value:  29012.954  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.72  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17802.056
+2024-04-30 13:51:14 status is off, tue nichts
+TotalAC2Grid is:  17802.056
+2024-04-30 13:51:20 state hp recommendation:  True
+2024-04-30 13:51:20 Home Consumption is:  15687.72
+2024-04-30 13:51:20 PV Production is:  4342.27
+write to table demand in column pv_totalyield value:  29012.954  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.72  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17802.056
+2024-04-30 13:52:15 status is off, tue nichts
+TotalAC2Grid is:  17802.056
+2024-04-30 13:52:20 state hp recommendation:  True
+2024-04-30 13:52:20 Home Consumption is:  15687.72
+2024-04-30 13:52:20 PV Production is:  4330.09
+write to table demand in column pv_totalyield value:  29012.954  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.72  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17802.056
+2024-04-30 13:53:15 status is off, tue nichts
+TotalAC2Grid is:  17802.056
+2024-04-30 13:53:21 state hp recommendation:  True
+2024-04-30 13:53:21 Home Consumption is:  15687.72
+2024-04-30 13:53:21 PV Production is:  4325.57
+write to table demand in column pv_totalyield value:  29012.954  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.72  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17802.056
+2024-04-30 13:54:14 status is off, tue nichts
+TotalAC2Grid is:  17802.056
+2024-04-30 13:54:20 state hp recommendation:  True
+2024-04-30 13:54:20 Home Consumption is:  15687.72
+2024-04-30 13:54:20 PV Production is:  4309.69
+write to table demand in column pv_totalyield value:  29012.954  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.72  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17802.056
+2024-04-30 13:55:14 status is off, tue nichts
+TotalAC2Grid is:  17802.056
+2024-04-30 13:55:20 state hp recommendation:  True
+2024-04-30 13:55:20 Home Consumption is:  15687.72
+2024-04-30 13:55:20 PV Production is:  4310.89
+write to table demand in column pv_totalyield value:  29013.302  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.746  for date:  2024-04-30
+db error: 
+column "totalac2grid" of relation "demand" does not exist
+LINE 1: INSERT INTO demand(date, totalac2grid)
+                                 ^
+
+TotalAC2Grid is:  17802.378
+2024-04-30 13:56:15 status is off, tue nichts
+TotalAC2Grid is:  17802.378
+2024-04-30 13:56:21 state hp recommendation:  True
+2024-04-30 13:56:21 Home Consumption is:  15687.746
+2024-04-30 13:56:21 PV Production is:  4282.99
+write to table demand in column pv_totalyield value:  29015.436  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.892  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17804.368  for date:  2024-04-30
+TotalAC2Grid is:  17804.368
+2024-04-30 14:34:14 status is off, tue nichts
+TotalAC2Grid is:  17804.368
+write to table demand in column pv_totalyield value:  29015.742  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.892  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17804.65  for date:  2024-04-30
+TotalAC2Grid is:  17804.65
+2024-04-30 14:35:15 status is off, tue nichts
+TotalAC2Grid is:  17804.65
+write to table demand in column pv_totalyield value:  29015.742  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.916  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17804.65  for date:  2024-04-30
+TotalAC2Grid is:  17804.65
+2024-04-30 14:36:15 status is off, tue nichts
+TotalAC2Grid is:  17804.65
+write to table demand in column pv_totalyield value:  29015.742  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.916  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17804.65  for date:  2024-04-30
+TotalAC2Grid is:  17804.65
+2024-04-30 14:37:14 status is off, tue nichts
+TotalAC2Grid is:  17804.65
+write to table demand in column pv_totalyield value:  29015.742  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.916  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17804.65  for date:  2024-04-30
+TotalAC2Grid is:  17804.65
+2024-04-30 14:38:15 status is off, tue nichts
+TotalAC2Grid is:  17804.65
+write to table demand in column pv_totalyield value:  29015.742  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.916  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17804.65  for date:  2024-04-30
+TotalAC2Grid is:  17804.65
+2024-04-30 14:39:15 status is off, tue nichts
+TotalAC2Grid is:  17804.65
+write to table demand in column pv_totalyield value:  29015.742  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.916  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17804.65  for date:  2024-04-30
+TotalAC2Grid is:  17804.65
+2024-04-30 14:40:15 status is off, tue nichts
+TotalAC2Grid is:  17804.936
+write to table demand in column pv_totalyield value:  29016.048  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.936  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17804.936  for date:  2024-04-30
+TotalAC2Grid is:  17804.936
+2024-04-30 14:41:15 status is off, tue nichts
+TotalAC2Grid is:  17804.936
+write to table demand in column pv_totalyield value:  29016.048  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.936  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17804.936  for date:  2024-04-30
+TotalAC2Grid is:  17804.936
+2024-04-30 14:42:15 status is off, tue nichts
+TotalAC2Grid is:  17804.936
+write to table demand in column pv_totalyield value:  29016.048  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.936  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17804.936  for date:  2024-04-30
+TotalAC2Grid is:  17804.936
+2024-04-30 14:43:15 status is off, tue nichts
+TotalAC2Grid is:  17804.936
+write to table demand in column pv_totalyield value:  29016.048  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.936  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17804.936  for date:  2024-04-30
+TotalAC2Grid is:  17804.936
+2024-04-30 14:44:15 status is off, tue nichts
+TotalAC2Grid is:  17804.936
+write to table demand in column pv_totalyield value:  29016.048  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.936  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17804.936  for date:  2024-04-30
+TotalAC2Grid is:  17804.936
+2024-04-30 14:45:16 status is off, tue nichts
+TotalAC2Grid is:  17804.936
+write to table demand in column pv_totalyield value:  29016.37  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.955  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17805.238  for date:  2024-04-30
+TotalAC2Grid is:  17805.238
+2024-04-30 14:46:14 status is off, tue nichts
+TotalAC2Grid is:  17805.238
+write to table demand in column pv_totalyield value:  29016.37  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.955  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17805.238  for date:  2024-04-30
+TotalAC2Grid is:  17805.238
+2024-04-30 14:47:14 status is off, tue nichts
+TotalAC2Grid is:  17805.238
+write to table demand in column pv_totalyield value:  29016.37  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.955  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17805.238  for date:  2024-04-30
+TotalAC2Grid is:  17805.238
+2024-04-30 14:48:14 status is off, tue nichts
+TotalAC2Grid is:  17805.238
+write to table demand in column pv_totalyield value:  29016.37  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.955  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17805.238  for date:  2024-04-30
+TotalAC2Grid is:  17805.238
+2024-04-30 14:49:14 status is off, tue nichts
+TotalAC2Grid is:  17805.238
+write to table demand in column pv_totalyield value:  29016.37  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.955  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17805.238  for date:  2024-04-30
+TotalAC2Grid is:  17805.238
+2024-04-30 14:50:14 status is off, tue nichts
+TotalAC2Grid is:  17805.238
+write to table demand in column pv_totalyield value:  29016.684  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.977  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17805.53  for date:  2024-04-30
+TotalAC2Grid is:  17805.53
+2024-04-30 14:51:14 status is off, tue nichts
+TotalAC2Grid is:  17805.53
+write to table demand in column pv_totalyield value:  29016.684  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.977  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17805.53  for date:  2024-04-30
+TotalAC2Grid is:  17805.53
+2024-04-30 14:52:15 status is off, tue nichts
+TotalAC2Grid is:  17805.53
+write to table demand in column pv_totalyield value:  29016.684  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.977  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17805.53  for date:  2024-04-30
+TotalAC2Grid is:  17805.53
+2024-04-30 14:53:14 status is off, tue nichts
+TotalAC2Grid is:  17805.53
+write to table demand in column pv_totalyield value:  29016.684  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.977  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17805.53  for date:  2024-04-30
+TotalAC2Grid is:  17805.53
+2024-04-30 14:54:15 status is off, tue nichts
+TotalAC2Grid is:  17805.53
+write to table demand in column pv_totalyield value:  29016.684  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.977  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17805.53  for date:  2024-04-30
+TotalAC2Grid is:  17805.53
+2024-04-30 14:55:15 status is off, tue nichts
+TotalAC2Grid is:  17805.53
+write to table demand in column pv_totalyield value:  29016.996  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.999  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17805.82  for date:  2024-04-30
+TotalAC2Grid is:  17805.82
+2024-04-30 14:56:14 status is off, tue nichts
+TotalAC2Grid is:  17805.82
+write to table demand in column pv_totalyield value:  29016.996  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.999  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17805.82  for date:  2024-04-30
+TotalAC2Grid is:  17805.82
+2024-04-30 14:57:14 status is off, tue nichts
+TotalAC2Grid is:  17805.82
+write to table demand in column pv_totalyield value:  29016.996  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.999  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17805.82  for date:  2024-04-30
+TotalAC2Grid is:  17805.82
+2024-04-30 14:58:14 status is off, tue nichts
+TotalAC2Grid is:  17805.82
+write to table demand in column pv_totalyield value:  29016.996  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.999  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17805.82  for date:  2024-04-30
+TotalAC2Grid is:  17805.82
+2024-04-30 14:59:14 status is off, tue nichts
+TotalAC2Grid is:  17805.82
+write to table demand in column pv_totalyield value:  29016.996  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15687.999  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17805.82  for date:  2024-04-30
+TotalAC2Grid is:  17805.82
+2024-04-30 15:00:15 status is off, tue nichts
+TotalAC2Grid is:  17805.82
+write to table demand in column pv_totalyield value:  29017.298  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.024  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17806.096  for date:  2024-04-30
+TotalAC2Grid is:  17806.096
+2024-04-30 15:01:15 status is off, tue nichts
+TotalAC2Grid is:  17806.096
+write to table demand in column pv_totalyield value:  29017.298  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.024  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17806.096  for date:  2024-04-30
+TotalAC2Grid is:  17806.096
+2024-04-30 15:02:15 status is off, tue nichts
+TotalAC2Grid is:  17806.096
+write to table demand in column pv_totalyield value:  29017.298  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.024  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17806.096  for date:  2024-04-30
+TotalAC2Grid is:  17806.096
+2024-04-30 15:03:14 status is off, tue nichts
+TotalAC2Grid is:  17806.096
+write to table demand in column pv_totalyield value:  29017.298  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.024  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17806.096  for date:  2024-04-30
+TotalAC2Grid is:  17806.096
+2024-04-30 15:04:14 status is off, tue nichts
+TotalAC2Grid is:  17806.096
+write to table demand in column pv_totalyield value:  29017.298  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.024  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17806.096  for date:  2024-04-30
+TotalAC2Grid is:  17806.096
+2024-04-30 15:05:15 status is off, tue nichts
+TotalAC2Grid is:  17806.096
+write to table demand in column pv_totalyield value:  29017.598  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.044  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17806.376  for date:  2024-04-30
+TotalAC2Grid is:  17806.376
+2024-04-30 15:06:14 status is off, tue nichts
+TotalAC2Grid is:  17806.376
+write to table demand in column pv_totalyield value:  29017.598  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.044  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17806.376  for date:  2024-04-30
+TotalAC2Grid is:  17806.376
+2024-04-30 15:07:15 status is off, tue nichts
+TotalAC2Grid is:  17806.376
+write to table demand in column pv_totalyield value:  29017.598  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.044  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17806.376  for date:  2024-04-30
+TotalAC2Grid is:  17806.376
+2024-04-30 15:08:14 status is off, tue nichts
+TotalAC2Grid is:  17806.376
+write to table demand in column pv_totalyield value:  29017.598  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.044  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17806.376  for date:  2024-04-30
+TotalAC2Grid is:  17806.376
+2024-04-30 15:09:14 status is off, tue nichts
+TotalAC2Grid is:  17806.376
+write to table demand in column pv_totalyield value:  29017.886  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.044  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17806.642  for date:  2024-04-30
+TotalAC2Grid is:  17806.642
+2024-04-30 15:10:16 status is off, tue nichts
+TotalAC2Grid is:  17806.642
+2024-04-30 15:10:21 state hp recommendation:  None
+2024-04-30 15:10:21 Home Consumption is:  15688.069
+2024-04-30 15:10:21 PV Production is:  3560.18
+2024-04-30 15:10:21 PV is producing enough 3560.18  enhance heating curve
+write to table demand in column pv_totalyield value:  29017.886  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.069  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17806.642  for date:  2024-04-30
+TotalAC2Grid is:  17806.642
+2024-04-30 15:11:14 status is off, tue nichts
+TotalAC2Grid is:  17806.642
+2024-04-30 15:11:20 state hp recommendation:  None
+2024-04-30 15:11:20 Home Consumption is:  15688.069
+2024-04-30 15:11:20 PV Production is:  3596.27
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29017.886  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.069  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17806.642  for date:  2024-04-30
+TotalAC2Grid is:  17806.642
+2024-04-30 15:12:14 status is off, tue nichts
+TotalAC2Grid is:  17806.642
+2024-04-30 15:12:20 state hp recommendation:  None
+2024-04-30 15:12:20 Home Consumption is:  15688.069
+2024-04-30 15:12:20 PV Production is:  3610.41
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29017.886  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.069  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17806.642  for date:  2024-04-30
+TotalAC2Grid is:  17806.642
+2024-04-30 15:13:15 status is off, tue nichts
+TotalAC2Grid is:  17806.642
+2024-04-30 15:13:20 state hp recommendation:  None
+2024-04-30 15:13:20 Home Consumption is:  15688.069
+2024-04-30 15:13:20 PV Production is:  3636.84
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29017.886  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.069  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17806.642  for date:  2024-04-30
+TotalAC2Grid is:  17806.642
+2024-04-30 15:14:15 status is off, tue nichts
+TotalAC2Grid is:  17806.642
+2024-04-30 15:14:21 state hp recommendation:  None
+2024-04-30 15:14:21 Home Consumption is:  15688.069
+2024-04-30 15:14:21 PV Production is:  3546.97
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29017.886  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.069  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17806.642  for date:  2024-04-30
+TotalAC2Grid is:  17806.642
+2024-04-30 15:15:14 status is off, tue nichts
+TotalAC2Grid is:  17806.908
+2024-04-30 15:15:20 state hp recommendation:  None
+2024-04-30 15:15:20 Home Consumption is:  15688.069
+2024-04-30 15:15:20 PV Production is:  3590.54
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29018.176  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.091  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17806.908  for date:  2024-04-30
+TotalAC2Grid is:  17806.908
+2024-04-30 15:16:14 status is off, tue nichts
+TotalAC2Grid is:  17806.908
+2024-04-30 15:16:20 state hp recommendation:  None
+2024-04-30 15:16:20 Home Consumption is:  15688.091
+2024-04-30 15:16:20 PV Production is:  3516.49
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29018.176  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.091  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17806.908  for date:  2024-04-30
+TotalAC2Grid is:  17806.908
+2024-04-30 15:17:14 status is off, tue nichts
+TotalAC2Grid is:  17806.908
+2024-04-30 15:17:20 state hp recommendation:  None
+2024-04-30 15:17:20 Home Consumption is:  15688.091
+2024-04-30 15:17:20 PV Production is:  3535.44
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29018.176  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.091  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17806.908  for date:  2024-04-30
+TotalAC2Grid is:  17806.908
+2024-04-30 15:18:13 status is off, tue nichts
+TotalAC2Grid is:  17806.908
+2024-04-30 15:18:19 state hp recommendation:  None
+2024-04-30 15:18:19 Home Consumption is:  15688.091
+2024-04-30 15:18:19 PV Production is:  3493.24
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29018.176  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.091  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17806.908  for date:  2024-04-30
+TotalAC2Grid is:  17806.908
+2024-04-30 15:19:15 status is off, tue nichts
+TotalAC2Grid is:  17806.908
+2024-04-30 15:19:21 state hp recommendation:  None
+2024-04-30 15:19:21 Home Consumption is:  15688.091
+2024-04-30 15:19:21 PV Production is:  3447.8
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29018.176  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.091  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17806.908  for date:  2024-04-30
+TotalAC2Grid is:  17806.908
+2024-04-30 15:20:15 status is off, tue nichts
+TotalAC2Grid is:  17806.908
+2024-04-30 15:20:20 state hp recommendation:  None
+2024-04-30 15:20:20 Home Consumption is:  15688.091
+2024-04-30 15:20:20 PV Production is:  3461.36
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29018.456  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.111  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17807.168  for date:  2024-04-30
+TotalAC2Grid is:  17807.168
+2024-04-30 15:21:14 status is off, tue nichts
+TotalAC2Grid is:  17807.168
+2024-04-30 15:21:19 state hp recommendation:  None
+2024-04-30 15:21:19 Home Consumption is:  15688.111
+2024-04-30 15:21:19 PV Production is:  3358.17
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29018.456  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.111  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17807.168  for date:  2024-04-30
+TotalAC2Grid is:  17807.168
+2024-04-30 15:22:14 status is off, tue nichts
+TotalAC2Grid is:  17807.168
+2024-04-30 15:22:20 state hp recommendation:  None
+2024-04-30 15:22:20 Home Consumption is:  15688.111
+2024-04-30 15:22:20 PV Production is:  3465.96
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29018.456  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.111  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17807.168  for date:  2024-04-30
+TotalAC2Grid is:  17807.168
+2024-04-30 15:23:15 status is off, tue nichts
+TotalAC2Grid is:  17807.168
+2024-04-30 15:23:20 state hp recommendation:  None
+2024-04-30 15:23:20 Home Consumption is:  15688.111
+2024-04-30 15:23:20 PV Production is:  3477.64
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29018.456  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.111  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17807.168  for date:  2024-04-30
+TotalAC2Grid is:  17807.168
+2024-04-30 15:24:14 status is off, tue nichts
+TotalAC2Grid is:  17807.168
+2024-04-30 15:24:20 state hp recommendation:  None
+2024-04-30 15:24:20 Home Consumption is:  15688.111
+2024-04-30 15:24:20 PV Production is:  3355.56
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29018.456  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.111  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17807.168  for date:  2024-04-30
+TotalAC2Grid is:  17807.168
+2024-04-30 15:25:15 status is off, tue nichts
+TotalAC2Grid is:  17807.168
+2024-04-30 15:25:21 state hp recommendation:  None
+2024-04-30 15:25:21 Home Consumption is:  15688.111
+2024-04-30 15:25:21 PV Production is:  3373.85
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29018.732  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.131  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17807.424  for date:  2024-04-30
+TotalAC2Grid is:  17807.424
+2024-04-30 15:26:14 status is off, tue nichts
+TotalAC2Grid is:  17807.424
+2024-04-30 15:26:20 state hp recommendation:  None
+2024-04-30 15:26:20 Home Consumption is:  15688.131
+2024-04-30 15:26:20 PV Production is:  3393.41
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29018.732  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.131  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17807.424  for date:  2024-04-30
+TotalAC2Grid is:  17807.424
+2024-04-30 15:27:15 status is off, tue nichts
+TotalAC2Grid is:  17807.424
+2024-04-30 15:27:21 state hp recommendation:  None
+2024-04-30 15:27:21 Home Consumption is:  15688.131
+2024-04-30 15:27:21 PV Production is:  3310.62
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29018.732  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.131  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17807.424  for date:  2024-04-30
+TotalAC2Grid is:  17807.424
+2024-04-30 15:28:14 status is off, tue nichts
+TotalAC2Grid is:  17807.424
+2024-04-30 15:28:20 state hp recommendation:  None
+2024-04-30 15:28:20 Home Consumption is:  15688.131
+2024-04-30 15:28:20 PV Production is:  3337.2
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29018.732  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.131  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17807.424  for date:  2024-04-30
+TotalAC2Grid is:  17807.424
+2024-04-30 15:29:14 status is off, tue nichts
+TotalAC2Grid is:  17807.424
+2024-04-30 15:29:20 state hp recommendation:  None
+2024-04-30 15:29:20 Home Consumption is:  15688.131
+2024-04-30 15:29:20 PV Production is:  3355.42
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29018.732  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.131  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17807.424  for date:  2024-04-30
+TotalAC2Grid is:  17807.424
+2024-04-30 15:30:15 status is off, tue nichts
+TotalAC2Grid is:  17807.424
+2024-04-30 15:30:21 state hp recommendation:  None
+2024-04-30 15:30:21 Home Consumption is:  15688.131
+2024-04-30 15:30:21 PV Production is:  3360.37
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29018.998  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.157  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17807.664  for date:  2024-04-30
+TotalAC2Grid is:  17807.664
+2024-04-30 15:31:15 status is off, tue nichts
+TotalAC2Grid is:  17807.664
+2024-04-30 15:31:21 state hp recommendation:  None
+2024-04-30 15:31:21 Home Consumption is:  15688.157
+2024-04-30 15:31:21 PV Production is:  3337.64
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29018.998  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.157  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17807.664  for date:  2024-04-30
+TotalAC2Grid is:  17807.664
+2024-04-30 15:32:14 status is off, tue nichts
+TotalAC2Grid is:  17807.664
+2024-04-30 15:32:20 state hp recommendation:  None
+2024-04-30 15:32:20 Home Consumption is:  15688.157
+2024-04-30 15:32:20 PV Production is:  3295.33
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29018.998  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.157  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17807.664  for date:  2024-04-30
+TotalAC2Grid is:  17807.664
+2024-04-30 15:33:14 status is off, tue nichts
+TotalAC2Grid is:  17807.664
+2024-04-30 15:33:20 state hp recommendation:  None
+2024-04-30 15:33:20 Home Consumption is:  15688.157
+2024-04-30 15:33:20 PV Production is:  3312.04
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29018.998  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.157  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17807.664  for date:  2024-04-30
+TotalAC2Grid is:  17807.664
+2024-04-30 15:34:15 status is off, tue nichts
+TotalAC2Grid is:  17807.664
+2024-04-30 15:34:20 state hp recommendation:  None
+2024-04-30 15:34:20 Home Consumption is:  15688.157
+2024-04-30 15:34:20 PV Production is:  3302.43
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29018.998  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.157  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17807.664  for date:  2024-04-30
+TotalAC2Grid is:  17807.664
+2024-04-30 15:35:15 status is off, tue nichts
+TotalAC2Grid is:  17807.664
+2024-04-30 15:35:21 state hp recommendation:  None
+2024-04-30 15:35:21 Home Consumption is:  15688.157
+2024-04-30 15:35:21 PV Production is:  3313.69
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29019.264  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.177  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17807.91  for date:  2024-04-30
+TotalAC2Grid is:  17807.91
+2024-04-30 15:36:14 status is off, tue nichts
+TotalAC2Grid is:  17807.91
+2024-04-30 15:36:20 state hp recommendation:  None
+2024-04-30 15:36:20 Home Consumption is:  15688.177
+2024-04-30 15:36:20 PV Production is:  3316.25
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29019.264  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.177  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17807.91  for date:  2024-04-30
+TotalAC2Grid is:  17807.91
+2024-04-30 15:37:14 status is off, tue nichts
+TotalAC2Grid is:  17807.91
+2024-04-30 15:37:20 state hp recommendation:  None
+2024-04-30 15:37:20 Home Consumption is:  15688.177
+2024-04-30 15:37:20 PV Production is:  3241.84
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29019.264  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.177  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17807.91  for date:  2024-04-30
+TotalAC2Grid is:  17807.91
+2024-04-30 15:38:15 status is off, tue nichts
+TotalAC2Grid is:  17807.91
+2024-04-30 15:38:21 state hp recommendation:  None
+2024-04-30 15:38:21 Home Consumption is:  15688.177
+2024-04-30 15:38:21 PV Production is:  3256.43
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29019.264  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.177  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17807.91  for date:  2024-04-30
+TotalAC2Grid is:  17807.91
+2024-04-30 15:39:14 status is off, tue nichts
+TotalAC2Grid is:  17807.91
+2024-04-30 15:39:20 state hp recommendation:  None
+2024-04-30 15:39:20 Home Consumption is:  15688.177
+2024-04-30 15:39:20 PV Production is:  3252.42
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29019.264  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.177  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17807.91  for date:  2024-04-30
+TotalAC2Grid is:  17807.91
+2024-04-30 15:40:15 status is off, tue nichts
+TotalAC2Grid is:  17807.91
+2024-04-30 15:40:20 state hp recommendation:  None
+2024-04-30 15:40:20 Home Consumption is:  15688.177
+2024-04-30 15:40:20 PV Production is:  3220.36
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29019.526  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.195  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17808.154  for date:  2024-04-30
+TotalAC2Grid is:  17808.154
+2024-04-30 15:41:16 status is off, tue nichts
+TotalAC2Grid is:  17808.154
+2024-04-30 15:41:22 state hp recommendation:  None
+2024-04-30 15:41:22 Home Consumption is:  15688.195
+2024-04-30 15:41:22 PV Production is:  3188.21
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
+write to table demand in column pv_totalyield value:  29019.526  for date:  2024-04-30
+write to table demand in column total_home_consumption value:  15688.195  for date:  2024-04-30
+write to table demand in column totalac2grid value:  17808.154  for date:  2024-04-30
+TotalAC2Grid is:  17808.154
+2024-04-30 15:42:14 status is off, tue nichts
+TotalAC2Grid is:  17808.154
+2024-04-30 15:42:20 state hp recommendation:  None
+2024-04-30 15:42:20 Home Consumption is:  15688.195
+2024-04-30 15:42:20 PV Production is:  3240.98
+connected to broker and published: panasonic_heat_pump/commands/SetCurves {"zone1": {"heat": {"target": {"high": 45, "low": 35}, "outside": {"high": 20, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}, "zone2": {"heat": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}, "cool": {"target": {"high": 35, "low": 25}, "outside": {"high": 15, "low": -15}}}}
