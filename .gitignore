@@ -1,7 +1,3 @@
 .env
-minutely.log
-hourly.log
-hourly.py
-database.ini
 archiv/
 __pycache__/

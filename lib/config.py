@@ -4,7 +4,7 @@ import sys
 
 def config(filename='database.ini', section='postgresql'):
     # create a parser
-    filename= sys.path[0]+'/lib/database.ini'
+    filename= sys.path[0]+'/database.ini'
     print ('filename: ', filename)
     parser = ConfigParser()
     # read config file
