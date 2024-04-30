@@ -123,7 +123,7 @@
 
 
 
-#import lib.mymqtt
+import lib.mymqtt
 from datetime import datetime, timedelta
 import pymodbus
 from pymodbus.client.tcp import ModbusTcpClient
@@ -135,7 +135,7 @@ import time
 import collections
 import argparse
 import sched, time
-#import lib.manager
+import lib.manager
 import os
 from dotenv import load_dotenv
 

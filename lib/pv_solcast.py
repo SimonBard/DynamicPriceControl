@@ -46,23 +46,23 @@ class Solcast:
 
     return list
 
-def old():
-    SOLCAST_API_KEY  = os.getenv(SOLCAST_API_KEY)
+# def old():
+#     SOLCAST_API_KEY  = os.getenv('SOLCAST_API_KEY')
     
-    res = forecast.rooftop_pv_power(
-        latitude = os.getenv('LATITUDE'),
-        longitude = os.getenv('LONGITUDE'),
-        tilt = os.getenv('DECLINATION'),
-        azimuth = os.getenv('AZIMUTH'),
-        capacity = os.getenv('KWP'),
-        period='PT60M',
-        api_key = SOLCAST_API_KEY,
-        #output_parameters='pv_power_rooftop'
-    )
-    df = res.to_pandas()
+#     res = forecast.rooftop_pv_power(
+#         latitude = os.getenv('LATITUDE'),
+#         longitude = os.getenv('LONGITUDE'),
+#         tilt = os.getenv('DECLINATION'),
+#         azimuth = os.getenv('AZIMUTH'),
+#         capacity = os.getenv('KWP'),
+#         period='PT60M',
+#         api_key = SOLCAST_API_KEY,
+#         #output_parameters='pv_power_rooftop'
+#     )
+#     df = res.to_pandas()
 
 
-    print('solcast')
+    # print('solcast')
 
 def main():
    inst = Solcast()

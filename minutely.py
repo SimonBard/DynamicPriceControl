@@ -13,9 +13,9 @@ import os
 
 def main():
 
-    # stats()
-    # battery_charge_switch()
-    # wp()
+    stats()
+    battery_charge_switch()
+    wp()
 
 
 def battery():
