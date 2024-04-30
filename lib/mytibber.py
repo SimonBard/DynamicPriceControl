@@ -3,6 +3,7 @@ import tibber
 import asyncio
 import os
 from dotenv import load_dotenv
+import aiohttp
 
 class Tibber:
 
@@ -28,12 +29,13 @@ class Tibber:
     return home
 
   async def start(self):
-    await self.tibber_connection.update_info()
-    print(self.tibber_connection.name)
-    home = await self._home_data()
-    await self.tibber_connection.close_connection()
+  
+    async with aiohttp.ClientSession() as session:
+        tibber_connection = tibber.Tibber(self.ACCESS_TOKEN, websession=session, user_agent="change_this")
+        await tibber_connection.update_info()
+    home = tibber_connection.get_homes()[0]
     return home
-
+  
 
 
 def main():
@@ -42,10 +44,7 @@ def main():
   home = loop.run_until_complete(inst.start())  
   
   print(home)
-  print(home.address1)
-  #print (home._price_info)
-  print(type(home))
-
+ 
   for key in home._price_info:
       print(key , home._price_info[key])
   ''' 
